@@ -1,14 +1,14 @@
 //
-//  SecondGearKit_Mac.m
-//  SecondGearKit-Mac
+//  SecondGearKit.m
+//  SecondGearKit
 //
 //  Created by Justin Williams on 10/2/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "SecondGearKit_Mac.h"
+#import "SecondGearKit.h"
 
-@implementation SecondGearKit_Mac
+@implementation SecondGearKit
 
 - (id)init
 {
