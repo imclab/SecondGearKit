@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09DF2911438E41200513C9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01AE79F14320CD800677EBE /* Cocoa.framework */; };
+		D09DF2971438E41200513C9F /* SecondGearKit_Mac.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2961438E41200513C9F /* SecondGearKit_Mac.m */; };
+		D09DF29C1438E43F00513C9F /* SecondGearKit-Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */; };
+		D09DF29D1438E53500513C9F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF26C1438E2BD00513C9F /* NSData+Base64.m */; };
+		D09DF29E1438E53500513C9F /* NSData+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF26F1438E2BD00513C9F /* NSData+SGAdditions.m */; };
+		D09DF29F1438E53500513C9F /* NSDate+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2711438E2BD00513C9F /* NSDate+SGAdditions.m */; };
+		D09DF2A01438E53500513C9F /* NSDictionary+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2731438E2BD00513C9F /* NSDictionary+SGAdditions.m */; };
+		D09DF2A11438E53500513C9F /* NSMutableString+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2751438E2BD00513C9F /* NSMutableString+SGAdditions.m */; };
+		D09DF2A21438E53500513C9F /* NSObject+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2771438E2BD00513C9F /* NSObject+SGAdditions.m */; };
+		D09DF2A31438E53500513C9F /* NSString+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2791438E2BD00513C9F /* NSString+SGAdditions.m */; };
+		D09DF2A41438E53500513C9F /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF27B1438E2BD00513C9F /* NSString+UUID.m */; };
+		D09DF2A51438E53500513C9F /* NSURL+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */; };
+		D09DF2A61438E53500513C9F /* SGHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D01AE7BD14320D0500677EBE /* SGHTTPRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D01AE79F14320CD800677EBE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D01AE7A214320CD800677EBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D01AE7A314320CD800677EBE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D01AE7A414320CD800677EBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D01AE7BC14320D0500677EBE /* SGHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHTTPRequest.h; sourceTree = "<group>"; };
+		D01AE7BD14320D0500677EBE /* SGHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHTTPRequest.m; sourceTree = "<group>"; };
+		D09DF26B1438E2BD00513C9F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		D09DF26C1438E2BD00513C9F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		D09DF26E1438E2BD00513C9F /* NSData+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SGAdditions.h"; sourceTree = "<group>"; };
+		D09DF26F1438E2BD00513C9F /* NSData+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SGAdditions.m"; sourceTree = "<group>"; };
+		D09DF2701438E2BD00513C9F /* NSDate+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SGAdditions.h"; sourceTree = "<group>"; };
+		D09DF2711438E2BD00513C9F /* NSDate+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SGAdditions.m"; sourceTree = "<group>"; };
+		D09DF2721438E2BD00513C9F /* NSDictionary+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SGAdditions.h"; sourceTree = "<group>"; };
+		D09DF2731438E2BD00513C9F /* NSDictionary+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SGAdditions.m"; sourceTree = "<group>"; };
+		D09DF2741438E2BD00513C9F /* NSMutableString+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+SGAdditions.h"; sourceTree = "<group>"; };
+		D09DF2751438E2BD00513C9F /* NSMutableString+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+SGAdditions.m"; sourceTree = "<group>"; };
+		D09DF2761438E2BD00513C9F /* NSObject+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SGAdditions.h"; sourceTree = "<group>"; };
+		D09DF2771438E2BD00513C9F /* NSObject+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SGAdditions.m"; sourceTree = "<group>"; };
+		D09DF2781438E2BD00513C9F /* NSString+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SGAdditions.h"; sourceTree = "<group>"; };
+		D09DF2791438E2BD00513C9F /* NSString+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SGAdditions.m"; sourceTree = "<group>"; };
+		D09DF27A1438E2BD00513C9F /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		D09DF27B1438E2BD00513C9F /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+SGAdditions.h"; sourceTree = "<group>"; };
+		D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SGAdditions.m"; sourceTree = "<group>"; };
+		D09DF2901438E41200513C9F /* SecondGearKit-Mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "SecondGearKit-Mac.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09DF2941438E41200513C9F /* SecondGearKit-Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Mac-Prefix.pch"; sourceTree = "<group>"; };
+		D09DF2951438E41200513C9F /* SecondGearKit_Mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondGearKit_Mac.h; sourceTree = "<group>"; };
+		D09DF2961438E41200513C9F /* SecondGearKit_Mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondGearKit_Mac.m; sourceTree = "<group>"; };
+		D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Mac.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09DF28D1438E41200513C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09DF2911438E41200513C9F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D01AE79014320CD800677EBE = {
+			isa = PBXGroup;
+			children = (
+				D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */,
+				D09DF26A1438E2BD00513C9F /* External */,
+				D09DF26D1438E2BD00513C9F /* Foundation */,
+				D01AE7A514320CD800677EBE /* SGHTTPRequest */,
+				D09DF2921438E41200513C9F /* SecondGearKit-Mac */,
+				D01AE79E14320CD800677EBE /* Frameworks */,
+				D01AE79C14320CD800677EBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D01AE79C14320CD800677EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09DF2901438E41200513C9F /* SecondGearKit-Mac.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01AE79E14320CD800677EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D01AE79F14320CD800677EBE /* Cocoa.framework */,
+				D01AE7A114320CD800677EBE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D01AE7A114320CD800677EBE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D01AE7A214320CD800677EBE /* AppKit.framework */,
+				D01AE7A314320CD800677EBE /* CoreData.framework */,
+				D01AE7A414320CD800677EBE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D01AE7A514320CD800677EBE /* SGHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D01AE7BC14320D0500677EBE /* SGHTTPRequest.h */,
+				D01AE7BD14320D0500677EBE /* SGHTTPRequest.m */,
+			);
+			path = SGHTTPRequest;
+			sourceTree = "<group>";
+		};
+		D09DF26A1438E2BD00513C9F /* External */ = {
+			isa = PBXGroup;
+			children = (
+				D09DF26B1438E2BD00513C9F /* NSData+Base64.h */,
+				D09DF26C1438E2BD00513C9F /* NSData+Base64.m */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		D09DF26D1438E2BD00513C9F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D09DF26E1438E2BD00513C9F /* NSData+SGAdditions.h */,
+				D09DF26F1438E2BD00513C9F /* NSData+SGAdditions.m */,
+				D09DF2701438E2BD00513C9F /* NSDate+SGAdditions.h */,
+				D09DF2711438E2BD00513C9F /* NSDate+SGAdditions.m */,
+				D09DF2721438E2BD00513C9F /* NSDictionary+SGAdditions.h */,
+				D09DF2731438E2BD00513C9F /* NSDictionary+SGAdditions.m */,
+				D09DF2741438E2BD00513C9F /* NSMutableString+SGAdditions.h */,
+				D09DF2751438E2BD00513C9F /* NSMutableString+SGAdditions.m */,
+				D09DF2761438E2BD00513C9F /* NSObject+SGAdditions.h */,
+				D09DF2771438E2BD00513C9F /* NSObject+SGAdditions.m */,
+				D09DF2781438E2BD00513C9F /* NSString+SGAdditions.h */,
+				D09DF2791438E2BD00513C9F /* NSString+SGAdditions.m */,
+				D09DF27A1438E2BD00513C9F /* NSString+UUID.h */,
+				D09DF27B1438E2BD00513C9F /* NSString+UUID.m */,
+				D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */,
+				D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		D09DF2921438E41200513C9F /* SecondGearKit-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				D09DF2951438E41200513C9F /* SecondGearKit_Mac.h */,
+				D09DF2961438E41200513C9F /* SecondGearKit_Mac.m */,
+				D09DF2931438E41200513C9F /* Supporting Files */,
+			);
+			path = "SecondGearKit-Mac";
+			sourceTree = "<group>";
+		};
+		D09DF2931438E41200513C9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09DF2941438E41200513C9F /* SecondGearKit-Mac-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D09DF28E1438E41200513C9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09DF29C1438E43F00513C9F /* SecondGearKit-Mac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D09DF28F1438E41200513C9F /* SecondGearKit-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09DF2981438E41200513C9F /* Build configuration list for PBXNativeTarget "SecondGearKit-Mac" */;
+			buildPhases = (
+				D09DF28C1438E41200513C9F /* Sources */,
+				D09DF28D1438E41200513C9F /* Frameworks */,
+				D09DF28E1438E41200513C9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SecondGearKit-Mac";
+			productName = "SecondGearKit-Mac";
+			productReference = D09DF2901438E41200513C9F /* SecondGearKit-Mac.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01AE79214320CD800677EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Second Gear";
+			};
+			buildConfigurationList = D01AE79514320CD800677EBE /* Build configuration list for PBXProject "SecondGearKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D01AE79014320CD800677EBE;
+			productRefGroup = D01AE79C14320CD800677EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09DF28F1438E41200513C9F /* SecondGearKit-Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09DF28C1438E41200513C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09DF29D1438E53500513C9F /* NSData+Base64.m in Sources */,
+				D09DF29E1438E53500513C9F /* NSData+SGAdditions.m in Sources */,
+				D09DF29F1438E53500513C9F /* NSDate+SGAdditions.m in Sources */,
+				D09DF2A01438E53500513C9F /* NSDictionary+SGAdditions.m in Sources */,
+				D09DF2A11438E53500513C9F /* NSMutableString+SGAdditions.m in Sources */,
+				D09DF2A21438E53500513C9F /* NSObject+SGAdditions.m in Sources */,
+				D09DF2A31438E53500513C9F /* NSString+SGAdditions.m in Sources */,
+				D09DF2A41438E53500513C9F /* NSString+UUID.m in Sources */,
+				D09DF2A51438E53500513C9F /* NSURL+SGAdditions.m in Sources */,
+				D09DF2A61438E53500513C9F /* SGHTTPRequest.m in Sources */,
+				D09DF2971438E41200513C9F /* SecondGearKit_Mac.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D01AE7B714320CD800677EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D01AE7B814320CD800677EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D09DF2991438E41200513C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondGearKit-Mac/SecondGearKit-Mac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		D09DF29A1438E41200513C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondGearKit-Mac/SecondGearKit-Mac-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01AE79514320CD800677EBE /* Build configuration list for PBXProject "SecondGearKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01AE7B714320CD800677EBE /* Debug */,
+				D01AE7B814320CD800677EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09DF2981438E41200513C9F /* Build configuration list for PBXNativeTarget "SecondGearKit-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09DF2991438E41200513C9F /* Debug */,
+				D09DF29A1438E41200513C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D01AE79214320CD800677EBE /* Project object */;
+}
