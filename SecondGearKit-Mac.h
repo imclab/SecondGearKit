@@ -27,3 +27,4 @@
 #import "SGHTTPRequest.h"
 
 // AppKit
+#import "NSAlert+SGAdditions.h"
