@@ -11,5 +11,8 @@
 @interface NSURL (SGAdditions)
 
 - (NSString *)absoluteStringMinusQueryString;
+- (NSDictionary *)queryParameters;
+- (NSURL *)URLByAppendingString:(NSString *)string;
+- (NSURL *)URLByAppendingQueryParameters:(NSDictionary *)parameters;
 
 @end

@@ -51,9 +51,14 @@ typedef void (^SGHTTPBlock)(void);
 @property (nonatomic, assign) SGHTTPRequestMethod requestMethod;
 @property (nonatomic, assign) NSTimeInterval timeoutInterval;
 @property (nonatomic, strong, readonly) NSError *error;
-@property (strong) SGHTTPBlock requestDidStartBlock;
-@property (strong) SGHTTPBlock requestDidFinishBlock;
-@property (strong) SGHTTPBlock requestDidFailBlock; 
+@property (copy) SGHTTPBlock requestDidStartBlock;
+@property (copy) SGHTTPBlock requestDidFinishBlock;
+@property (copy) SGHTTPBlock requestDidFailBlock; 
+
+@property (nonatomic, strong) id responseJSONObject;
+@property (nonatomic, strong) NSJSONSerialization *responseJSONDecoder;
+@property (nonatomic, strong) NSString *responseString;
+@property (nonatomic, strong) NSDictionary *responseURLEncodedDictionary;
 
 @property (nonatomic, readonly) BOOL isLoading;
 

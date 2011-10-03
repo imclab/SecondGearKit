@@ -10,6 +10,7 @@
 
 // External
 #import "NSData+Base64.h"
+#import "EMKeychainItem.h"
 
 // Foundation
 #import "NSData+SGAdditions.h"
@@ -20,6 +21,7 @@
 #import "NSString+SGAdditions.h"
 #import "NSString+UUID.h"
 #import "NSURL+SGAdditions.h"
+#import "NSArray+SGAdditions.h"
 
 // SGHTTPRequest
 #import "SGHTTPRequest.h"
