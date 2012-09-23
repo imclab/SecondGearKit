@@ -27,7 +27,6 @@
 		D09DF2D81438F8FD00513C9F /* NSString+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2791438E2BD00513C9F /* NSString+SGAdditions.m */; };
 		D09DF2D91438F8FD00513C9F /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF27B1438E2BD00513C9F /* NSString+UUID.m */; };
 		D09DF2DA1438F8FD00513C9F /* NSURL+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */; };
-		D09DF2DB1438F8FD00513C9F /* SGHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D01AE7BD14320D0500677EBE /* SGHTTPRequest.m */; };
 		D09DF2DC1438F90A00513C9F /* SecondGearKit-Mac.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2DD1438F91700513C9F /* NSData+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26E1438E2BD00513C9F /* NSData+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2DE1438F91700513C9F /* NSDate+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2701438E2BD00513C9F /* NSDate+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +36,6 @@
 		D09DF2E21438F91700513C9F /* NSString+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2781438E2BD00513C9F /* NSString+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2E31438F91700513C9F /* NSString+UUID.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF27A1438E2BD00513C9F /* NSString+UUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2E41438F91700513C9F /* NSURL+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D09DF2E51438F91700513C9F /* SGHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D01AE7BC14320D0500677EBE /* SGHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26B1438E2BD00513C9F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -54,8 +52,6 @@
 		D01AE7A214320CD800677EBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D01AE7A314320CD800677EBE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D01AE7A414320CD800677EBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D01AE7BC14320D0500677EBE /* SGHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHTTPRequest.h; sourceTree = "<group>"; };
-		D01AE7BD14320D0500677EBE /* SGHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHTTPRequest.m; sourceTree = "<group>"; };
 		D09DF26B1438E2BD00513C9F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		D09DF26C1438E2BD00513C9F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		D09DF26E1438E2BD00513C9F /* NSData+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SGAdditions.h"; sourceTree = "<group>"; };
@@ -123,7 +119,6 @@
 				D011D8DE143A3F12009C1B68 /* AppKit */,
 				D09DF26A1438E2BD00513C9F /* External */,
 				D09DF26D1438E2BD00513C9F /* Foundation */,
-				D01AE7A514320CD800677EBE /* SGHTTPRequest */,
 				D09DF2921438E41200513C9F /* SecondGearKit-Mac */,
 				D09DF2C51438F8EB00513C9F /* SecondGearKit */,
 				D01AE79E14320CD800677EBE /* Frameworks */,
@@ -158,15 +153,6 @@
 				D01AE7A414320CD800677EBE /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		D01AE7A514320CD800677EBE /* SGHTTPRequest */ = {
-			isa = PBXGroup;
-			children = (
-				D01AE7BC14320D0500677EBE /* SGHTTPRequest.h */,
-				D01AE7BD14320D0500677EBE /* SGHTTPRequest.m */,
-			);
-			path = SGHTTPRequest;
 			sourceTree = "<group>";
 		};
 		D09DF26A1438E2BD00513C9F /* External */ = {
@@ -258,7 +244,6 @@
 				D09DF2E41438F91700513C9F /* NSURL+SGAdditions.h in Headers */,
 				D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */,
 				D011D8CA143A128C009C1B68 /* NSArray+SGAdditions.h in Headers */,
-				D09DF2E51438F91700513C9F /* SGHTTPRequest.h in Headers */,
 				D011D8D0143A1C1C009C1B68 /* EMKeychainItem.h in Headers */,
 				D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */,
 			);
@@ -337,7 +322,6 @@
 				D09DF2D81438F8FD00513C9F /* NSString+SGAdditions.m in Sources */,
 				D09DF2D91438F8FD00513C9F /* NSString+UUID.m in Sources */,
 				D09DF2DA1438F8FD00513C9F /* NSURL+SGAdditions.m in Sources */,
-				D09DF2DB1438F8FD00513C9F /* SGHTTPRequest.m in Sources */,
 				D011D8CB143A128C009C1B68 /* NSArray+SGAdditions.m in Sources */,
 				D011D8D1143A1C1C009C1B68 /* EMKeychainItem.m in Sources */,
 				D011D8E2143A3F27009C1B68 /* NSAlert+SGAdditions.m in Sources */,
