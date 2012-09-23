@@ -1,0 +1,3 @@
+[submodule "External/SGKeychain"]
+	path = External/SGKeychain
+	url = git@github.com:secondgear/SGKeychain.git
