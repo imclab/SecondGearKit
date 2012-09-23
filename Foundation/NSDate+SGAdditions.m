@@ -12,38 +12,39 @@
 
 - (NSString *)HTTPTimeZoneHeaderString
 {
-  return [self HTTPTimeZoneHeaderStringForTimeZone:nil];
+    return [self HTTPTimeZoneHeaderStringForTimeZone:nil];
 }
 
 - (NSString *)HTTPTimeZoneHeaderStringForTimeZone:(NSTimeZone *)theTimeZone
 {
-  NSTimeZone *timeZone = theTimeZone ? theTimeZone : [NSTimeZone localTimeZone];
-  NSString *dateString = [self ISO8601StringForTimeZone:timeZone];
-  NSString *timeZoneHeader = [NSString stringWithFormat:@"%@;;%@", dateString, [timeZone name]];
-  return timeZoneHeader;
+    NSTimeZone *timeZone = theTimeZone ? theTimeZone : [NSTimeZone localTimeZone];
+    NSString *dateString = [self ISO8601StringForTimeZone:timeZone];
+    NSString *timeZoneHeader = [NSString stringWithFormat:@"%@;;%@", dateString, [timeZone name]];
+    return timeZoneHeader;
 }
 
 - (NSString *)ISO8601String;
 {
-  return [self ISO8601StringForTimeZone:nil];
+    return [self ISO8601StringForTimeZone:nil];
 }
 
-- (NSString *)ISO8601StringForTimeZone:(NSTimeZone *)inTimeZone;
+- (NSString *)ISO8601StringForTimeZone:(NSTimeZone *)timeZone;
 {
-  if (!inTimeZone) {
-    inTimeZone = [NSTimeZone localTimeZone];
-  }
-  
-  struct tm *timeinfo;
-  char buffer[80];
-  
-  time_t rawtime = [self timeIntervalSince1970] - [inTimeZone secondsFromGMT];
-  timeinfo = localtime(&rawtime);
-  
-  strftime(buffer, 80, "%Y-%m-%dT%H:%M:%S%z", timeinfo);
-  
-  return [NSString stringWithCString:buffer encoding:NSUTF8StringEncoding];
-  
+    if (timeZone == nil)
+    {
+        timeZone = [NSTimeZone localTimeZone];
+    }
+    
+    struct tm *timeinfo;
+    char buffer[80];
+    
+    time_t rawtime = [self timeIntervalSince1970] - [timeZone secondsFromGMT];
+    timeinfo = localtime(&rawtime);
+    
+    strftime(buffer, 80, "%Y-%m-%dT%H:%M:%S%z", timeinfo);
+    
+    return [NSString stringWithCString:buffer encoding:NSUTF8StringEncoding];
+    
 }
 
 
