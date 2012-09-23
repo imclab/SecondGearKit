@@ -105,7 +105,7 @@
                 escapedStringValue = [stringValue stringByEscapingQueryParameters];
             }
             
-			[listString appendFormat: @"%@=%\"%@\"", currentKey, escapedStringValue];			
+			[listString appendFormat: @"%@=\"%@\"", currentKey, escapedStringValue];			
 		}
         
 		appendComma = YES;
