@@ -14,20 +14,20 @@
 - (NSString *)URLParameterStringValue
 {
 	NSString *stringValue = nil;
-  
-	if ([self isKindOfClass: [NSString class]]) 
-  {
+    
+	if ([self isKindOfClass: [NSString class]])
+    {
 		stringValue = (NSString *)self;
 	}
-	else if ([self isKindOfClass: [NSNumber class]]) 
-  {		
+	else if ([self isKindOfClass: [NSNumber class]])
+    {
 		stringValue = [(NSNumber *)self stringValue];
 	}
-	else if ([self isKindOfClass: [NSDate class]]) 
-  {
+	else if ([self isKindOfClass: [NSDate class]])
+    {
 		stringValue = [(NSDate *)self HTTPTimeZoneHeaderString];
 	}
-  
+    
 	return stringValue;
 }
 

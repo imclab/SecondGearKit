@@ -11,13 +11,13 @@
 @implementation NSString (SGAdditions)
 - (NSString *)stringByEscapingQueryParameters;
 {
-  // Changed to reflect http://en.wikipedia.org/wiki/Percent-encoding with the addition of the "%"
-  return (__bridge NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (__bridge CFStringRef)self, NULL, CFSTR("!*'();:@&=+$,/?%#[]%"), kCFStringEncodingUTF8);
+    // Changed to reflect http://en.wikipedia.org/wiki/Percent-encoding with the addition of the "%"
+    return (__bridge NSString *)CFURLCreateStringByAddingPercentEscapes(NULL, (__bridge CFStringRef)self, NULL, CFSTR("!*'();:@&=+$,/?%#[]%"), kCFStringEncodingUTF8);
 }
 
 - (NSString *)stringByReplacingPercentEscapes;
 {
-  return (__bridge NSString*)CFURLCreateStringByReplacingPercentEscapes(NULL, (__bridge CFStringRef)self, CFSTR(""));
+    return (__bridge NSString*)CFURLCreateStringByReplacingPercentEscapes(NULL, (__bridge CFStringRef)self, CFSTR(""));
 }
 
 @end
