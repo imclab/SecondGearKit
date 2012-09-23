@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		D011D8CA143A128C009C1B68 /* NSArray+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D011D8C8143A128C009C1B68 /* NSArray+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D011D8CB143A128C009C1B68 /* NSArray+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D011D8C9143A128C009C1B68 /* NSArray+SGAdditions.m */; };
-		D011D8D0143A1C1C009C1B68 /* EMKeychainItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D011D8CE143A1C1C009C1B68 /* EMKeychainItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D011D8D1143A1C1C009C1B68 /* EMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D011D8CF143A1C1C009C1B68 /* EMKeychainItem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D011D8D3143A1C69009C1B68 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D011D8D2143A1C68009C1B68 /* Carbon.framework */; };
 		D011D8D5143A1C6E009C1B68 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D011D8D4143A1C6E009C1B68 /* Security.framework */; };
 		D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D011D8DF143A3F27009C1B68 /* NSAlert+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,8 +40,6 @@
 /* Begin PBXFileReference section */
 		D011D8C8143A128C009C1B68 /* NSArray+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SGAdditions.h"; sourceTree = "<group>"; };
 		D011D8C9143A128C009C1B68 /* NSArray+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SGAdditions.m"; sourceTree = "<group>"; };
-		D011D8CE143A1C1C009C1B68 /* EMKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMKeychainItem.h; sourceTree = "<group>"; };
-		D011D8CF143A1C1C009C1B68 /* EMKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMKeychainItem.m; sourceTree = "<group>"; };
 		D011D8D2143A1C68009C1B68 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		D011D8D4143A1C6E009C1B68 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D011D8DF143A3F27009C1B68 /* NSAlert+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAlert+SGAdditions.h"; path = "AppKit/NSAlert+SGAdditions.h"; sourceTree = "<group>"; };
@@ -94,15 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D011D8CD143A1C1C009C1B68 /* EMKeychain */ = {
-			isa = PBXGroup;
-			children = (
-				D011D8CE143A1C1C009C1B68 /* EMKeychainItem.h */,
-				D011D8CF143A1C1C009C1B68 /* EMKeychainItem.m */,
-			);
-			path = EMKeychain;
-			sourceTree = "<group>";
-		};
 		D011D8DE143A3F12009C1B68 /* AppKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +145,6 @@
 		D09DF26A1438E2BD00513C9F /* External */ = {
 			isa = PBXGroup;
 			children = (
-				D011D8CD143A1C1C009C1B68 /* EMKeychain */,
 				D09DF26B1438E2BD00513C9F /* NSData+Base64.h */,
 				D09DF26C1438E2BD00513C9F /* NSData+Base64.m */,
 			);
@@ -244,7 +230,6 @@
 				D09DF2E41438F91700513C9F /* NSURL+SGAdditions.h in Headers */,
 				D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */,
 				D011D8CA143A128C009C1B68 /* NSArray+SGAdditions.h in Headers */,
-				D011D8D0143A1C1C009C1B68 /* EMKeychainItem.h in Headers */,
 				D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,7 +308,6 @@
 				D09DF2D91438F8FD00513C9F /* NSString+UUID.m in Sources */,
 				D09DF2DA1438F8FD00513C9F /* NSURL+SGAdditions.m in Sources */,
 				D011D8CB143A128C009C1B68 /* NSArray+SGAdditions.m in Sources */,
-				D011D8D1143A1C1C009C1B68 /* EMKeychainItem.m in Sources */,
 				D011D8E2143A3F27009C1B68 /* NSAlert+SGAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
