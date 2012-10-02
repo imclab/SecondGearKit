@@ -8,6 +8,9 @@
 
 #import "NSObject+SGAdditions.h"
 #import "NSDate+SGAdditions.h"
+#import <objc/runtime.h>
+
+const char *SGAssociatedObjectsDictionaryKey = "SGAssociatedObjectsDictionaryKey";
 
 @implementation NSObject (SGAdditions)
 
@@ -31,5 +34,42 @@
 	return stringValue;
 }
 
+#pragma mark -
+#pragma mark Associated Objects
+// +--------------------------------------------------------------------
+// | Associated Objects
+// +--------------------------------------------------------------------
+
+- (void)associateValue:(id)value withKey:(void *)key
+{
+	objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_RETAIN);
+}
+
+- (void)weaklyAssociateValue:(id)value withKey:(void *)key
+{
+	objc_setAssociatedObject(self, key, value, OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (id)associatedValueForKey:(void *)key
+{
+	return objc_getAssociatedObject(self, key);
+}
+
+#pragma mark -
+#pragma mark Object Subscripted Associated Objects
+// +--------------------------------------------------------------------
+// | Object Subscripted Associated Objects
+// +--------------------------------------------------------------------
+
+- (NSMutableDictionary *)associatedObjects
+{
+    NSMutableDictionary *associatedObjects = objc_getAssociatedObject(self, SGAssociatedObjectsDictionaryKey);
+    if (associatedObjects == nil)
+    {
+        associatedObjects = [[NSMutableDictionary alloc] init];
+        objc_setAssociatedObject(self, SGAssociatedObjectsDictionaryKey, associatedObjects, OBJC_ASSOCIATION_RETAIN);
+    }
+    return associatedObjects;
+}
 
 @end
