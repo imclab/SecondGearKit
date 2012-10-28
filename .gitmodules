@@ -4,3 +4,6 @@
 [submodule "External/SGMimiMailer"]
 	path = External/SGMimiMailer
 	url = git@github.com:secondgear/SGMimiMailer.git
+[submodule "External/Reachability"]
+	path = External/Reachability
+	url = git@github.com:secondgear/Reachability.git
