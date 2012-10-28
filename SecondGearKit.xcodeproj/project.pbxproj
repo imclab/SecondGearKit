@@ -15,6 +15,8 @@
 		D011D8E2143A3F27009C1B68 /* NSAlert+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D011D8E0143A3F27009C1B68 /* NSAlert+SGAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D0833839163D942600EA32D6 /* NSSet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */; };
 		D083383A163D942600EA32D6 /* NSSet+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833838163D942600EA32D6 /* NSSet+SGExtensions.m */; };
+		D083383D163D94EB00EA32D6 /* SGMimiMailer.h in Headers */ = {isa = PBXBuildFile; fileRef = D083383B163D94EB00EA32D6 /* SGMimiMailer.h */; };
+		D083383E163D94EB00EA32D6 /* SGMimiMailer.m in Sources */ = {isa = PBXBuildFile; fileRef = D083383C163D94EB00EA32D6 /* SGMimiMailer.m */; };
 		D09DF2C41438F8EB00513C9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01AE79F14320CD800677EBE /* Cocoa.framework */; };
 		D09DF2CA1438F8EB00513C9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D09DF2C81438F8EB00513C9F /* InfoPlist.strings */; };
 		D09DF2CE1438F8EB00513C9F /* SecondGearKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2CD1438F8EB00513C9F /* SecondGearKit.m */; };
@@ -54,6 +56,8 @@
 		D0833822163D92B300EA32D6 /* UIApplication+SGAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SGAdditions.m"; path = "UIKit/UIApplication+SGAdditions.m"; sourceTree = "<group>"; };
 		D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+SGExtensions.h"; sourceTree = "<group>"; };
 		D0833838163D942600EA32D6 /* NSSet+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+SGExtensions.m"; sourceTree = "<group>"; };
+		D083383B163D94EB00EA32D6 /* SGMimiMailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGMimiMailer.h; path = SGMimiMailer/SGMimiMailer.h; sourceTree = "<group>"; };
+		D083383C163D94EB00EA32D6 /* SGMimiMailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGMimiMailer.m; path = SGMimiMailer/SGMimiMailer.m; sourceTree = "<group>"; };
 		D09DF26B1438E2BD00513C9F /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		D09DF26C1438E2BD00513C9F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
 		D09DF26E1438E2BD00513C9F /* NSData+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SGAdditions.h"; sourceTree = "<group>"; };
@@ -158,9 +162,19 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
+		D083383F163D94EF00EA32D6 /* SGMimiMailer */ = {
+			isa = PBXGroup;
+			children = (
+				D083383B163D94EB00EA32D6 /* SGMimiMailer.h */,
+				D083383C163D94EB00EA32D6 /* SGMimiMailer.m */,
+			);
+			name = SGMimiMailer;
+			sourceTree = "<group>";
+		};
 		D09DF26A1438E2BD00513C9F /* External */ = {
 			isa = PBXGroup;
 			children = (
+				D083383F163D94EF00EA32D6 /* SGMimiMailer */,
 				D0C067E3160F857F00CCEE1E /* SGKeychain */,
 				D09DF26B1438E2BD00513C9F /* NSData+Base64.h */,
 				D09DF26C1438E2BD00513C9F /* NSData+Base64.m */,
@@ -258,6 +272,7 @@
 				D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */,
 				D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */,
 				D0833839163D942600EA32D6 /* NSSet+SGExtensions.h in Headers */,
+				D083383D163D94EB00EA32D6 /* SGMimiMailer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +353,7 @@
 				D011D8E2143A3F27009C1B68 /* NSAlert+SGAdditions.m in Sources */,
 				D0C067E2160F857C00CCEE1E /* SGKeychain.m in Sources */,
 				D083383A163D942600EA32D6 /* NSSet+SGExtensions.m in Sources */,
+				D083383E163D94EB00EA32D6 /* SGMimiMailer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

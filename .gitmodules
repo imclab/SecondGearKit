@@ -1,3 +1,6 @@
 [submodule "External/SGKeychain"]
 	path = External/SGKeychain
 	url = git@github.com:secondgear/SGKeychain.git
+[submodule "External/SGMimiMailer"]
+	path = External/SGMimiMailer
+	url = git@github.com:secondgear/SGMimiMailer.git
