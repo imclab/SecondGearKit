@@ -16,9 +16,4 @@
 - (void)weaklyAssociateValue:(id)value withKey:(void *)key;
 - (id)associatedValueForKey:(void *)key;
 
-// Object Subscripted Associated Objects
-// Convenience property so I can use object subscripting to set and access associated objects.
-@property (readonly) NSMutableDictionary *associatedObjects;
-
-
 @end

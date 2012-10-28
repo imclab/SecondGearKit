@@ -20,4 +20,13 @@
     return (__bridge NSString*)CFURLCreateStringByReplacingPercentEscapes(NULL, (__bridge CFStringRef)self, CFSTR(""));
 }
 
++ (NSString *)UUIDString
+{
+	CFUUIDRef uuid = CFUUIDCreate(kCFAllocatorDefault);
+	NSString *UUIDString = (__bridge NSString*) CFUUIDCreateString(kCFAllocatorDefault, uuid);
+	CFRelease(uuid);
+    
+	return UUIDString;
+}
+
 @end

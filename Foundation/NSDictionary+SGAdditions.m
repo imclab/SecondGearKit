@@ -12,7 +12,7 @@
 
 @implementation NSDictionary (SGAdditions)
 
-+ (NSDictionary *)dictionaryWithURLEncodedString:(NSString *)urlEncodedString
++ (NSDictionary *)dictionaryParsedFromURLEncodedString:(NSString *)urlEncodedString
 {
     NSMutableDictionary *mutableResponseDictionary = [[NSMutableDictionary alloc] init];
     // split string by &s

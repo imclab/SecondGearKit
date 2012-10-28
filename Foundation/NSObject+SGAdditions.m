@@ -55,21 +55,4 @@ const char *SGAssociatedObjectsDictionaryKey = "SGAssociatedObjectsDictionaryKey
 	return objc_getAssociatedObject(self, key);
 }
 
-#pragma mark -
-#pragma mark Object Subscripted Associated Objects
-// +--------------------------------------------------------------------
-// | Object Subscripted Associated Objects
-// +--------------------------------------------------------------------
-
-- (NSMutableDictionary *)associatedObjects
-{
-    NSMutableDictionary *associatedObjects = objc_getAssociatedObject(self, SGAssociatedObjectsDictionaryKey);
-    if (associatedObjects == nil)
-    {
-        associatedObjects = [[NSMutableDictionary alloc] init];
-        objc_setAssociatedObject(self, SGAssociatedObjectsDictionaryKey, associatedObjects, OBJC_ASSOCIATION_RETAIN);
-    }
-    return associatedObjects;
-}
-
 @end

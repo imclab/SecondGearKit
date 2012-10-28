@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSDictionary (SGAdditions)
-+ (NSDictionary *)dictionaryWithURLEncodedString:(NSString *)urlEncodedString;
+
++ (NSDictionary *)dictionaryParsedFromURLEncodedString:(NSString *)urlEncodedString;
 - (NSString *)URLEncodedStringValue;
 - (NSString *)URLEncodedQuotedKeyValueListValue;
+
 @end

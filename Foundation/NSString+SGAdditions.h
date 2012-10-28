@@ -11,4 +11,5 @@
 @interface NSString (SGAdditions)
 - (NSString *)stringByEscapingQueryParameters;
 - (NSString *)stringByReplacingPercentEscapes;
++ (NSString *)UUIDString;
 @end

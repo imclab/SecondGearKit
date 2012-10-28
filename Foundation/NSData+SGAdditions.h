@@ -14,6 +14,8 @@
 
 - (NSData *)hmacSHA1DataValueWithKey:(NSData *)keyData;
 - (NSString *)UTF8String;
+- (NSString *)stringWithHexBytes;
+- (NSString *)md5;
 
 @end
 
