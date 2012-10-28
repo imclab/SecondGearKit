@@ -22,7 +22,6 @@
 		D0833846163D954D00EA32D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0833845163D954D00EA32D6 /* SystemConfiguration.framework */; };
 		D09DF2C41438F8EB00513C9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D01AE79F14320CD800677EBE /* Cocoa.framework */; };
 		D09DF2CA1438F8EB00513C9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D09DF2C81438F8EB00513C9F /* InfoPlist.strings */; };
-		D09DF2CE1438F8EB00513C9F /* SecondGearKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2CD1438F8EB00513C9F /* SecondGearKit.m */; };
 		D09DF2D21438F8FD00513C9F /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF26C1438E2BD00513C9F /* NSData+Base64.m */; };
 		D09DF2D31438F8FD00513C9F /* NSData+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF26F1438E2BD00513C9F /* NSData+SGAdditions.m */; };
 		D09DF2D41438F8FD00513C9F /* NSDate+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2711438E2BD00513C9F /* NSDate+SGAdditions.m */; };
@@ -80,14 +79,11 @@
 		D09DF2791438E2BD00513C9F /* NSString+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SGAdditions.m"; sourceTree = "<group>"; };
 		D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+SGAdditions.h"; sourceTree = "<group>"; };
 		D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SGAdditions.m"; sourceTree = "<group>"; };
-		D09DF2941438E41200513C9F /* SecondGearKit-Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Mac-Prefix.pch"; sourceTree = "<group>"; };
 		D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Mac.h"; sourceTree = "<group>"; };
 		D09DF2C31438F8EB00513C9F /* SecondGearKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SecondGearKit.framework; path = SecondGearKitFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09DF2C71438F8EB00513C9F /* SecondGearKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecondGearKit-Info.plist"; sourceTree = "<group>"; };
 		D09DF2C91438F8EB00513C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D09DF2CB1438F8EB00513C9F /* SecondGearKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Prefix.pch"; sourceTree = "<group>"; };
-		D09DF2CC1438F8EB00513C9F /* SecondGearKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondGearKit.h; sourceTree = "<group>"; };
-		D09DF2CD1438F8EB00513C9F /* SecondGearKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondGearKit.m; sourceTree = "<group>"; };
 		D0C067DF160F857C00CCEE1E /* SGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGKeychain.h; path = SGKeychain/SGKeychain.h; sourceTree = "<group>"; };
 		D0C067E0160F857C00CCEE1E /* SGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGKeychain.m; path = SGKeychain/SGKeychain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +120,6 @@
 				D011D8DE143A3F12009C1B68 /* AppKit */,
 				D09DF26A1438E2BD00513C9F /* External */,
 				D09DF26D1438E2BD00513C9F /* Foundation */,
-				D09DF2921438E41200513C9F /* SecondGearKit-Mac */,
 				D09DF2C51438F8EB00513C9F /* SecondGearKit */,
 				D01AE79E14320CD800677EBE /* Frameworks */,
 				D01AE79C14320CD800677EBE /* Products */,
@@ -188,14 +183,22 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
+		D0833847163D95E000EA32D6 /* NSData+Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				D09DF26B1438E2BD00513C9F /* NSData+Base64.h */,
+				D09DF26C1438E2BD00513C9F /* NSData+Base64.m */,
+			);
+			name = "NSData+Base64";
+			sourceTree = "<group>";
+		};
 		D09DF26A1438E2BD00513C9F /* External */ = {
 			isa = PBXGroup;
 			children = (
 				D0833844163D953900EA32D6 /* Reachability */,
 				D083383F163D94EF00EA32D6 /* SGMimiMailer */,
 				D0C067E3160F857F00CCEE1E /* SGKeychain */,
-				D09DF26B1438E2BD00513C9F /* NSData+Base64.h */,
-				D09DF26C1438E2BD00513C9F /* NSData+Base64.m */,
+				D0833847163D95E000EA32D6 /* NSData+Base64 */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -203,6 +206,8 @@
 		D09DF26D1438E2BD00513C9F /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				D011D8C8143A128C009C1B68 /* NSArray+SGAdditions.h */,
+				D011D8C9143A128C009C1B68 /* NSArray+SGAdditions.m */,
 				D09DF26E1438E2BD00513C9F /* NSData+SGAdditions.h */,
 				D09DF26F1438E2BD00513C9F /* NSData+SGAdditions.m */,
 				D09DF2701438E2BD00513C9F /* NSDate+SGAdditions.h */,
@@ -219,33 +224,13 @@
 				D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */,
 				D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */,
 				D0833838163D942600EA32D6 /* NSSet+SGExtensions.m */,
-				D011D8C8143A128C009C1B68 /* NSArray+SGAdditions.h */,
-				D011D8C9143A128C009C1B68 /* NSArray+SGAdditions.m */,
 			);
 			path = Foundation;
-			sourceTree = "<group>";
-		};
-		D09DF2921438E41200513C9F /* SecondGearKit-Mac */ = {
-			isa = PBXGroup;
-			children = (
-				D09DF2931438E41200513C9F /* Supporting Files */,
-			);
-			path = "SecondGearKit-Mac";
-			sourceTree = "<group>";
-		};
-		D09DF2931438E41200513C9F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D09DF2941438E41200513C9F /* SecondGearKit-Mac-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D09DF2C51438F8EB00513C9F /* SecondGearKit */ = {
 			isa = PBXGroup;
 			children = (
-				D09DF2CC1438F8EB00513C9F /* SecondGearKit.h */,
-				D09DF2CD1438F8EB00513C9F /* SecondGearKit.m */,
 				D09DF2C61438F8EB00513C9F /* Supporting Files */,
 			);
 			path = SecondGearKit;
@@ -359,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D09DF2CE1438F8EB00513C9F /* SecondGearKit.m in Sources */,
 				D09DF2D21438F8FD00513C9F /* NSData+Base64.m in Sources */,
 				D09DF2D31438F8FD00513C9F /* NSData+SGAdditions.m in Sources */,
 				D09DF2D41438F8FD00513C9F /* NSDate+SGAdditions.m in Sources */,
