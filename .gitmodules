@@ -7,3 +7,6 @@
 [submodule "External/Reachability"]
 	path = External/Reachability
 	url = git@github.com:secondgear/Reachability.git
+[submodule "External/CocoaLumberjack"]
+	path = External/CocoaLumberjack
+	url = git@github.com:secondgear/CocoaLumberjack.git
