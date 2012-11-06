@@ -110,7 +110,7 @@
 		D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+SGAdditions.h"; sourceTree = "<group>"; };
 		D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SGAdditions.m"; sourceTree = "<group>"; };
 		D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Mac.h"; sourceTree = "<group>"; };
-		D09DF2C31438F8EB00513C9F /* SecondGearKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SecondGearKit.framework; path = SecondGearKitFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09DF2C31438F8EB00513C9F /* SecondGearKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecondGearKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09DF2C71438F8EB00513C9F /* SecondGearKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecondGearKit-Info.plist"; sourceTree = "<group>"; };
 		D09DF2C91438F8EB00513C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D09DF2CB1438F8EB00513C9F /* SecondGearKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -539,6 +539,46 @@
 			};
 			name = Release;
 		};
+		D0D76F7D1648E210003D8DB5 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Beta;
+		};
+		D0D76F7E1648E210003D8DB5 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondGearKit/SecondGearKit-Prefix.pch";
+				INFOPLIST_FILE = "SecondGearKit/SecondGearKit-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Beta;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +587,7 @@
 			buildConfigurations = (
 				D01AE7B714320CD800677EBE /* Debug */,
 				D01AE7B814320CD800677EBE /* Release */,
+				D0D76F7D1648E210003D8DB5 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -556,6 +597,7 @@
 			buildConfigurations = (
 				D09DF2D01438F8EB00513C9F /* Debug */,
 				D09DF2D11438F8EB00513C9F /* Release */,
+				D0D76F7E1648E210003D8DB5 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
