@@ -13,22 +13,22 @@
 		D011D8D5143A1C6E009C1B68 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D011D8D4143A1C6E009C1B68 /* Security.framework */; };
 		D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D011D8DF143A3F27009C1B68 /* NSAlert+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D011D8E2143A3F27009C1B68 /* NSAlert+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D011D8E0143A3F27009C1B68 /* NSAlert+SGAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D0833839163D942600EA32D6 /* NSSet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */; };
+		D0833839163D942600EA32D6 /* NSSet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D083383A163D942600EA32D6 /* NSSet+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833838163D942600EA32D6 /* NSSet+SGExtensions.m */; };
-		D083383D163D94EB00EA32D6 /* SGMimiMailer.h in Headers */ = {isa = PBXBuildFile; fileRef = D083383B163D94EB00EA32D6 /* SGMimiMailer.h */; };
+		D083383D163D94EB00EA32D6 /* SGMimiMailer.h in Headers */ = {isa = PBXBuildFile; fileRef = D083383B163D94EB00EA32D6 /* SGMimiMailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D083383E163D94EB00EA32D6 /* SGMimiMailer.m in Sources */ = {isa = PBXBuildFile; fileRef = D083383C163D94EB00EA32D6 /* SGMimiMailer.m */; };
-		D0833842163D953500EA32D6 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833840163D953500EA32D6 /* Reachability.h */; };
+		D0833842163D953500EA32D6 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833840163D953500EA32D6 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0833843163D953500EA32D6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833841163D953500EA32D6 /* Reachability.m */; };
 		D0833846163D954D00EA32D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0833845163D954D00EA32D6 /* SystemConfiguration.framework */; };
-		D0833859163D96B500EA32D6 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833849163D96B500EA32D6 /* DDAbstractDatabaseLogger.h */; };
+		D0833859163D96B500EA32D6 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833849163D96B500EA32D6 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D083385A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m */; };
-		D083385B163D96B500EA32D6 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384B163D96B500EA32D6 /* DDASLLogger.h */; };
+		D083385B163D96B500EA32D6 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384B163D96B500EA32D6 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D083385C163D96B500EA32D6 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384C163D96B500EA32D6 /* DDASLLogger.m */; };
-		D083385D163D96B500EA32D6 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384D163D96B500EA32D6 /* DDFileLogger.h */; };
+		D083385D163D96B500EA32D6 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384D163D96B500EA32D6 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D083385E163D96B500EA32D6 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384E163D96B500EA32D6 /* DDFileLogger.m */; };
-		D083385F163D96B500EA32D6 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384F163D96B500EA32D6 /* DDLog.h */; };
+		D083385F163D96B500EA32D6 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384F163D96B500EA32D6 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0833860163D96B500EA32D6 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833850163D96B500EA32D6 /* DDLog.m */; };
-		D0833861163D96B500EA32D6 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833851163D96B500EA32D6 /* DDTTYLogger.h */; };
+		D0833861163D96B500EA32D6 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833851163D96B500EA32D6 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0833862163D96B500EA32D6 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833852163D96B500EA32D6 /* DDTTYLogger.m */; };
 		D0833863163D96B500EA32D6 /* ContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833854163D96B500EA32D6 /* ContextFilterLogFormatter.h */; };
 		D0833864163D96B500EA32D6 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833855163D96B500EA32D6 /* ContextFilterLogFormatter.m */; };
@@ -54,7 +54,7 @@
 		D09DF2E21438F91700513C9F /* NSString+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2781438E2BD00513C9F /* NSString+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2E41438F91700513C9F /* NSURL+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26B1438E2BD00513C9F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C067DF160F857C00CCEE1E /* SGKeychain.h */; };
+		D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C067DF160F857C00CCEE1E /* SGKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C067E2160F857C00CCEE1E /* SGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C067E0160F857C00CCEE1E /* SGKeychain.m */; };
 /* End PBXBuildFile section */
 
@@ -333,8 +333,6 @@
 				D09DF2E21438F91700513C9F /* NSString+SGAdditions.h in Headers */,
 				D09DF2E41438F91700513C9F /* NSURL+SGAdditions.h in Headers */,
 				D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */,
-				D011D8CA143A128C009C1B68 /* NSArray+SGAdditions.h in Headers */,
-				D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */,
 				D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */,
 				D0833839163D942600EA32D6 /* NSSet+SGExtensions.h in Headers */,
 				D083383D163D94EB00EA32D6 /* SGMimiMailer.h in Headers */,
@@ -344,6 +342,8 @@
 				D083385D163D96B500EA32D6 /* DDFileLogger.h in Headers */,
 				D083385F163D96B500EA32D6 /* DDLog.h in Headers */,
 				D0833861163D96B500EA32D6 /* DDTTYLogger.h in Headers */,
+				D011D8CA143A128C009C1B68 /* NSArray+SGAdditions.h in Headers */,
+				D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */,
 				D0833863163D96B500EA32D6 /* ContextFilterLogFormatter.h in Headers */,
 				D0833865163D96B500EA32D6 /* DispatchQueueLogFormatter.h in Headers */,
 			);
@@ -352,9 +352,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D09DF2C21438F8EB00513C9F /* SecondGearKitFramework */ = {
+		D09DF2C21438F8EB00513C9F /* SecondGearKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D09DF2CF1438F8EB00513C9F /* Build configuration list for PBXNativeTarget "SecondGearKitFramework" */;
+			buildConfigurationList = D09DF2CF1438F8EB00513C9F /* Build configuration list for PBXNativeTarget "SecondGearKit" */;
 			buildPhases = (
 				D09DF2BE1438F8EB00513C9F /* Sources */,
 				D09DF2BF1438F8EB00513C9F /* Frameworks */,
@@ -365,7 +365,7 @@
 			);
 			dependencies = (
 			);
-			name = SecondGearKitFramework;
+			name = SecondGearKit;
 			productName = SecondGearKit;
 			productReference = D09DF2C31438F8EB00513C9F /* SecondGearKit.framework */;
 			productType = "com.apple.product-type.framework";
@@ -392,7 +392,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D09DF2C21438F8EB00513C9F /* SecondGearKitFramework */,
+				D09DF2C21438F8EB00513C9F /* SecondGearKit */,
 			);
 		};
 /* End PBXProject section */
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D09DF2CF1438F8EB00513C9F /* Build configuration list for PBXNativeTarget "SecondGearKitFramework" */ = {
+		D09DF2CF1438F8EB00513C9F /* Build configuration list for PBXNativeTarget "SecondGearKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D09DF2D01438F8EB00513C9F /* Debug */,
