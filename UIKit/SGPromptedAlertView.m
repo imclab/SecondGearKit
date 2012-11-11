@@ -7,6 +7,7 @@
 //
 
 #import "SGPromptedAlertView.h"
+#import "SGDeviceHelper.h"
 
 enum kPromptAlertViewButtons
 {
