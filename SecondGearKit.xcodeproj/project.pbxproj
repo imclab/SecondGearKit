@@ -13,6 +13,53 @@
 		D011D8D5143A1C6E009C1B68 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D011D8D4143A1C6E009C1B68 /* Security.framework */; };
 		D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D011D8DF143A3F27009C1B68 /* NSAlert+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D011D8E2143A3F27009C1B68 /* NSAlert+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D011D8E0143A3F27009C1B68 /* NSAlert+SGAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D0796B17165058E800E2C9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0796B16165058E800E2C9A4 /* Foundation.framework */; };
+		D0796B2A165059D200E2C9A4 /* UIApplication+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833822163D92B300EA32D6 /* UIApplication+SGAdditions.m */; };
+		D0796B2B165059D200E2C9A4 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m */; };
+		D0796B2C165059D200E2C9A4 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384C163D96B500EA32D6 /* DDASLLogger.m */; };
+		D0796B2D165059D200E2C9A4 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384E163D96B500EA32D6 /* DDFileLogger.m */; };
+		D0796B2E165059D200E2C9A4 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833850163D96B500EA32D6 /* DDLog.m */; };
+		D0796B2F165059D200E2C9A4 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833852163D96B500EA32D6 /* DDTTYLogger.m */; };
+		D0796B30165059D200E2C9A4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833841163D953500EA32D6 /* Reachability.m */; };
+		D0796B31165059D200E2C9A4 /* SGMimiMailer.m in Sources */ = {isa = PBXBuildFile; fileRef = D083383C163D94EB00EA32D6 /* SGMimiMailer.m */; };
+		D0796B32165059D200E2C9A4 /* SGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C067E0160F857C00CCEE1E /* SGKeychain.m */; };
+		D0796B33165059D200E2C9A4 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF26C1438E2BD00513C9F /* NSData+Base64.m */; };
+		D0796B34165059D200E2C9A4 /* NSArray+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D011D8C9143A128C009C1B68 /* NSArray+SGAdditions.m */; };
+		D0796B35165059D200E2C9A4 /* NSData+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF26F1438E2BD00513C9F /* NSData+SGAdditions.m */; };
+		D0796B36165059D200E2C9A4 /* NSDate+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2711438E2BD00513C9F /* NSDate+SGAdditions.m */; };
+		D0796B37165059D200E2C9A4 /* NSDictionary+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2731438E2BD00513C9F /* NSDictionary+SGAdditions.m */; };
+		D0796B38165059D200E2C9A4 /* NSMutableString+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2751438E2BD00513C9F /* NSMutableString+SGAdditions.m */; };
+		D0796B39165059D200E2C9A4 /* NSObject+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2771438E2BD00513C9F /* NSObject+SGAdditions.m */; };
+		D0796B3A165059D200E2C9A4 /* NSString+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF2791438E2BD00513C9F /* NSString+SGAdditions.m */; };
+		D0796B3B165059D200E2C9A4 /* NSURL+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D09DF27D1438E2BD00513C9F /* NSURL+SGAdditions.m */; };
+		D0796B3C165059D200E2C9A4 /* NSSet+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833838163D942600EA32D6 /* NSSet+SGExtensions.m */; };
+		D0796B3D165059E200E2C9A4 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833855163D96B500EA32D6 /* ContextFilterLogFormatter.m */; };
+		D0796B3E165059E200E2C9A4 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833857163D96B500EA32D6 /* DispatchQueueLogFormatter.m */; };
+		D0796B3F16505A0500E2C9A4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0833845163D954D00EA32D6 /* SystemConfiguration.framework */; };
+		D0796B4016505A0700E2C9A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D011D8D4143A1C6E009C1B68 /* Security.framework */; };
+		D0796B4216505A2000E2C9A4 /* SecondGearKit-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D0796B1B165058E800E2C9A4 /* SecondGearKit-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4316505A4500E2C9A4 /* UIApplication+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833821163D92B300EA32D6 /* UIApplication+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4416505A4500E2C9A4 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833849163D96B500EA32D6 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4516505A4500E2C9A4 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384B163D96B500EA32D6 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4616505A4500E2C9A4 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384D163D96B500EA32D6 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4716505A4500E2C9A4 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384F163D96B500EA32D6 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4816505A4500E2C9A4 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833851163D96B500EA32D6 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4916505A4500E2C9A4 /* ContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833854163D96B500EA32D6 /* ContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4A16505A4500E2C9A4 /* DispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833856163D96B500EA32D6 /* DispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4B16505A4500E2C9A4 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833840163D953500EA32D6 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4C16505A4500E2C9A4 /* SGMimiMailer.h in Headers */ = {isa = PBXBuildFile; fileRef = D083383B163D94EB00EA32D6 /* SGMimiMailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4D16505A4500E2C9A4 /* SGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C067DF160F857C00CCEE1E /* SGKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4E16505A4500E2C9A4 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26B1438E2BD00513C9F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B4F16505A4500E2C9A4 /* NSArray+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D011D8C8143A128C009C1B68 /* NSArray+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5016505A4500E2C9A4 /* NSData+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26E1438E2BD00513C9F /* NSData+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5116505A4500E2C9A4 /* NSDate+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2701438E2BD00513C9F /* NSDate+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5216505A4500E2C9A4 /* NSDictionary+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2721438E2BD00513C9F /* NSDictionary+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5316505A4500E2C9A4 /* NSMutableString+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2741438E2BD00513C9F /* NSMutableString+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5416505A4500E2C9A4 /* NSObject+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2761438E2BD00513C9F /* NSObject+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5516505A4500E2C9A4 /* NSString+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2781438E2BD00513C9F /* NSString+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5616505A4500E2C9A4 /* NSURL+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5716505A4500E2C9A4 /* NSSet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0796B5D16505B0A00E2C9A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0796B5C16505B0A00E2C9A4 /* UIKit.framework */; };
 		D0833839163D942600EA32D6 /* NSSet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D083383A163D942600EA32D6 /* NSSet+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833838163D942600EA32D6 /* NSSet+SGExtensions.m */; };
 		D083383D163D94EB00EA32D6 /* SGMimiMailer.h in Headers */ = {isa = PBXBuildFile; fileRef = D083383B163D94EB00EA32D6 /* SGMimiMailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,6 +116,11 @@
 		D01AE7A214320CD800677EBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D01AE7A314320CD800677EBE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D01AE7A414320CD800677EBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0796B15165058E800E2C9A4 /* libSecondGearKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSecondGearKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0796B16165058E800E2C9A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0796B1A165058E800E2C9A4 /* SecondGear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGear-Prefix.pch"; sourceTree = "<group>"; };
+		D0796B1B165058E800E2C9A4 /* SecondGearKit-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SecondGearKit-iOS.h"; path = "SecondGear/SecondGearKit-iOS.h"; sourceTree = "<group>"; };
+		D0796B5C16505B0A00E2C9A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D0833821163D92B300EA32D6 /* UIApplication+SGAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SGAdditions.h"; path = "UIKit/UIApplication+SGAdditions.h"; sourceTree = "<group>"; };
 		D0833822163D92B300EA32D6 /* UIApplication+SGAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SGAdditions.m"; path = "UIKit/UIApplication+SGAdditions.m"; sourceTree = "<group>"; };
 		D0833837163D942600EA32D6 /* NSSet+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+SGExtensions.h"; sourceTree = "<group>"; };
@@ -119,6 +171,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D0796B12165058E800E2C9A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0796B5D16505B0A00E2C9A4 /* UIKit.framework in Frameworks */,
+				D0796B17165058E800E2C9A4 /* Foundation.framework in Frameworks */,
+				D0796B4016505A0700E2C9A4 /* Security.framework in Frameworks */,
+				D0796B3F16505A0500E2C9A4 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D09DF2BF1438F8EB00513C9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,11 +209,13 @@
 			isa = PBXGroup;
 			children = (
 				D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */,
+				D0796B1B165058E800E2C9A4 /* SecondGearKit-iOS.h */,
 				D083381F163D920E00EA32D6 /* UIKit */,
 				D011D8DE143A3F12009C1B68 /* AppKit */,
 				D09DF26A1438E2BD00513C9F /* External */,
 				D09DF26D1438E2BD00513C9F /* Foundation */,
 				D09DF2C51438F8EB00513C9F /* SecondGearKit */,
+				D0796B18165058E800E2C9A4 /* SecondGear */,
 				D01AE79E14320CD800677EBE /* Frameworks */,
 				D01AE79C14320CD800677EBE /* Products */,
 			);
@@ -160,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				D09DF2C31438F8EB00513C9F /* SecondGearKit.framework */,
+				D0796B15165058E800E2C9A4 /* libSecondGearKit.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -167,10 +233,12 @@
 		D01AE79E14320CD800677EBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0796B5C16505B0A00E2C9A4 /* UIKit.framework */,
 				D0833845163D954D00EA32D6 /* SystemConfiguration.framework */,
 				D011D8D4143A1C6E009C1B68 /* Security.framework */,
 				D011D8D2143A1C68009C1B68 /* Carbon.framework */,
 				D01AE79F14320CD800677EBE /* Cocoa.framework */,
+				D0796B16165058E800E2C9A4 /* Foundation.framework */,
 				D01AE7A114320CD800677EBE /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -184,6 +252,22 @@
 				D01AE7A414320CD800677EBE /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0796B18165058E800E2C9A4 /* SecondGear */ = {
+			isa = PBXGroup;
+			children = (
+				D0796B19165058E800E2C9A4 /* Supporting Files */,
+			);
+			path = SecondGear;
+			sourceTree = "<group>";
+		};
+		D0796B19165058E800E2C9A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0796B1A165058E800E2C9A4 /* SecondGear-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D083381F163D920E00EA32D6 /* UIKit */ = {
@@ -320,6 +404,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		D0796B4116505A1600E2C9A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0796B4216505A2000E2C9A4 /* SecondGearKit-iOS.h in Headers */,
+				D0796B4316505A4500E2C9A4 /* UIApplication+SGAdditions.h in Headers */,
+				D0796B4416505A4500E2C9A4 /* DDAbstractDatabaseLogger.h in Headers */,
+				D0796B4516505A4500E2C9A4 /* DDASLLogger.h in Headers */,
+				D0796B4616505A4500E2C9A4 /* DDFileLogger.h in Headers */,
+				D0796B4716505A4500E2C9A4 /* DDLog.h in Headers */,
+				D0796B4816505A4500E2C9A4 /* DDTTYLogger.h in Headers */,
+				D0796B4916505A4500E2C9A4 /* ContextFilterLogFormatter.h in Headers */,
+				D0796B4A16505A4500E2C9A4 /* DispatchQueueLogFormatter.h in Headers */,
+				D0796B4B16505A4500E2C9A4 /* Reachability.h in Headers */,
+				D0796B4C16505A4500E2C9A4 /* SGMimiMailer.h in Headers */,
+				D0796B4D16505A4500E2C9A4 /* SGKeychain.h in Headers */,
+				D0796B4E16505A4500E2C9A4 /* NSData+Base64.h in Headers */,
+				D0796B4F16505A4500E2C9A4 /* NSArray+SGAdditions.h in Headers */,
+				D0796B5016505A4500E2C9A4 /* NSData+SGAdditions.h in Headers */,
+				D0796B5116505A4500E2C9A4 /* NSDate+SGAdditions.h in Headers */,
+				D0796B5216505A4500E2C9A4 /* NSDictionary+SGAdditions.h in Headers */,
+				D0796B5316505A4500E2C9A4 /* NSMutableString+SGAdditions.h in Headers */,
+				D0796B5416505A4500E2C9A4 /* NSObject+SGAdditions.h in Headers */,
+				D0796B5516505A4500E2C9A4 /* NSString+SGAdditions.h in Headers */,
+				D0796B5616505A4500E2C9A4 /* NSURL+SGAdditions.h in Headers */,
+				D0796B5716505A4500E2C9A4 /* NSSet+SGExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D09DF2C01438F8EB00513C9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +465,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		D0796B14165058E800E2C9A4 /* SecondGear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0796B22165058E800E2C9A4 /* Build configuration list for PBXNativeTarget "SecondGear" */;
+			buildPhases = (
+				D0796B11165058E800E2C9A4 /* Sources */,
+				D0796B12165058E800E2C9A4 /* Frameworks */,
+				D0796B4116505A1600E2C9A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecondGear;
+			productName = SecondGear;
+			productReference = D0796B15165058E800E2C9A4 /* libSecondGearKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		D09DF2C21438F8EB00513C9F /* SecondGearKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D09DF2CF1438F8EB00513C9F /* Build configuration list for PBXNativeTarget "SecondGearKit" */;
@@ -393,6 +523,7 @@
 			projectRoot = "";
 			targets = (
 				D09DF2C21438F8EB00513C9F /* SecondGearKit */,
+				D0796B14165058E800E2C9A4 /* SecondGear */,
 			);
 		};
 /* End PBXProject section */
@@ -410,6 +541,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D0796B11165058E800E2C9A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0796B2A165059D200E2C9A4 /* UIApplication+SGAdditions.m in Sources */,
+				D0796B2B165059D200E2C9A4 /* DDAbstractDatabaseLogger.m in Sources */,
+				D0796B2C165059D200E2C9A4 /* DDASLLogger.m in Sources */,
+				D0796B2D165059D200E2C9A4 /* DDFileLogger.m in Sources */,
+				D0796B2E165059D200E2C9A4 /* DDLog.m in Sources */,
+				D0796B2F165059D200E2C9A4 /* DDTTYLogger.m in Sources */,
+				D0796B3D165059E200E2C9A4 /* ContextFilterLogFormatter.m in Sources */,
+				D0796B3E165059E200E2C9A4 /* DispatchQueueLogFormatter.m in Sources */,
+				D0796B30165059D200E2C9A4 /* Reachability.m in Sources */,
+				D0796B31165059D200E2C9A4 /* SGMimiMailer.m in Sources */,
+				D0796B32165059D200E2C9A4 /* SGKeychain.m in Sources */,
+				D0796B33165059D200E2C9A4 /* NSData+Base64.m in Sources */,
+				D0796B34165059D200E2C9A4 /* NSArray+SGAdditions.m in Sources */,
+				D0796B35165059D200E2C9A4 /* NSData+SGAdditions.m in Sources */,
+				D0796B36165059D200E2C9A4 /* NSDate+SGAdditions.m in Sources */,
+				D0796B37165059D200E2C9A4 /* NSDictionary+SGAdditions.m in Sources */,
+				D0796B38165059D200E2C9A4 /* NSMutableString+SGAdditions.m in Sources */,
+				D0796B39165059D200E2C9A4 /* NSObject+SGAdditions.m in Sources */,
+				D0796B3A165059D200E2C9A4 /* NSString+SGAdditions.m in Sources */,
+				D0796B3B165059D200E2C9A4 /* NSURL+SGAdditions.m in Sources */,
+				D0796B3C165059D200E2C9A4 /* NSSet+SGExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D09DF2BE1438F8EB00513C9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,6 +657,71 @@
 				SDKROOT = macosx;
 			};
 			name = Release;
+		};
+		D0796B1F165058E800E2C9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/SecondGear.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondGear/SecondGear-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SecondGearKit;
+				PUBLIC_HEADERS_FOLDER_PATH = include/SecondGearKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D0796B20165058E800E2C9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/SecondGear.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondGear/SecondGear-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SecondGearKit;
+				PUBLIC_HEADERS_FOLDER_PATH = include/SecondGearKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0796B21165058E800E2C9A4 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DSTROOT = /tmp/SecondGear.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecondGear/SecondGear-Prefix.pch";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = SecondGearKit;
+				PUBLIC_HEADERS_FOLDER_PATH = include/SecondGearKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
 		};
 		D09DF2D01438F8EB00513C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -588,6 +812,16 @@
 				D01AE7B714320CD800677EBE /* Debug */,
 				D01AE7B814320CD800677EBE /* Release */,
 				D0D76F7D1648E210003D8DB5 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0796B22165058E800E2C9A4 /* Build configuration list for PBXNativeTarget "SecondGear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0796B1F165058E800E2C9A4 /* Debug */,
+				D0796B20165058E800E2C9A4 /* Release */,
+				D0796B21165058E800E2C9A4 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

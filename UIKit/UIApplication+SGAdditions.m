@@ -13,7 +13,7 @@
 + (CGSize)currentSize
 {
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication]statusBarOrientation];
-    return [UIApplication ted_sizeInOrientation:orientation];
+    return [UIApplication sizeInOrientation:orientation];
 }
 
 + (CGSize)sizeInOrientation:(UIInterfaceOrientation)orientation
