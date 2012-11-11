@@ -18,6 +18,7 @@
 #import "DDFileLogger.h"
 #import "DDASLLogger.h"
 #import "DDTTYLogger.h"
+#import "UIView+position.h"
 
 // Foundation
 #import "NSArray+SGAdditions.h"
@@ -31,4 +32,12 @@
 #import "NSSet+SGExtensions.h"
 
 // UIKit
+#import "SGActivityIndicator.h"
+#import "SGAlertView.h"
+#import "SGDeviceHelper.h"
+#import "SGPopoverManager.h"
+#import "SGPromptedAlertView.h"
+#import "UIAlertView+SGExtensions.h"
 #import "UIApplication+SGAdditions.h"
+#import "UIFont+SGExtensions.h"
+#import "UIResponder+TextInsertion.h"

@@ -103,6 +103,24 @@
 		D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26B1438E2BD00513C9F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C067DF160F857C00CCEE1E /* SGKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C067E2160F857C00CCEE1E /* SGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C067E0160F857C00CCEE1E /* SGKeychain.m */; };
+		D0FDF69B1650607900D2E097 /* UIAlertView+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF69C1650607900D2E097 /* UIAlertView+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */; };
+		D0FDF6A1165060D100D2E097 /* UIView+position.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF69F165060D100D2E097 /* UIView+position.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6A2165060D100D2E097 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6A0165060D100D2E097 /* UIView+position.m */; };
+		D0FDF6A51650617700D2E097 /* UIFont+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6A31650617700D2E097 /* UIFont+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6A61650617700D2E097 /* UIFont+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6A41650617700D2E097 /* UIFont+SGExtensions.m */; };
+		D0FDF6B31650628100D2E097 /* SGActivityIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6A71650628100D2E097 /* SGActivityIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6B41650628100D2E097 /* SGActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6A81650628100D2E097 /* SGActivityIndicator.m */; };
+		D0FDF6B51650628100D2E097 /* SGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6A91650628100D2E097 /* SGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6B61650628100D2E097 /* SGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6AA1650628100D2E097 /* SGAlertView.m */; };
+		D0FDF6B71650628100D2E097 /* SGDeviceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6AB1650628100D2E097 /* SGDeviceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6B81650628100D2E097 /* SGDeviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6AC1650628100D2E097 /* SGDeviceHelper.m */; };
+		D0FDF6B91650628100D2E097 /* SGPopoverManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6AD1650628100D2E097 /* SGPopoverManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6BA1650628100D2E097 /* SGPopoverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6AE1650628100D2E097 /* SGPopoverManager.m */; };
+		D0FDF6BB1650628100D2E097 /* SGPromptedAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6AF1650628100D2E097 /* SGPromptedAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6BC1650628100D2E097 /* SGPromptedAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6B01650628100D2E097 /* SGPromptedAlertView.m */; };
+		D0FDF6BD1650628100D2E097 /* UIResponder+TextInsertion.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6B11650628100D2E097 /* UIResponder+TextInsertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0FDF6BE1650628100D2E097 /* UIResponder+TextInsertion.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF6B21650628100D2E097 /* UIResponder+TextInsertion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -168,6 +186,24 @@
 		D09DF2CB1438F8EB00513C9F /* SecondGearKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Prefix.pch"; sourceTree = "<group>"; };
 		D0C067DF160F857C00CCEE1E /* SGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGKeychain.h; path = SGKeychain/SGKeychain.h; sourceTree = "<group>"; };
 		D0C067E0160F857C00CCEE1E /* SGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGKeychain.m; path = SGKeychain/SGKeychain.m; sourceTree = "<group>"; };
+		D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SGExtensions.h"; path = "UIKit/UIAlertView+SGExtensions.h"; sourceTree = "<group>"; };
+		D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SGExtensions.m"; path = "UIKit/UIAlertView+SGExtensions.m"; sourceTree = "<group>"; };
+		D0FDF69F165060D100D2E097 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
+		D0FDF6A0165060D100D2E097 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
+		D0FDF6A31650617700D2E097 /* UIFont+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIFont+SGExtensions.h"; path = "UIKit/UIFont+SGExtensions.h"; sourceTree = "<group>"; };
+		D0FDF6A41650617700D2E097 /* UIFont+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIFont+SGExtensions.m"; path = "UIKit/UIFont+SGExtensions.m"; sourceTree = "<group>"; };
+		D0FDF6A71650628100D2E097 /* SGActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGActivityIndicator.h; path = UIKit/SGActivityIndicator.h; sourceTree = "<group>"; };
+		D0FDF6A81650628100D2E097 /* SGActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGActivityIndicator.m; path = UIKit/SGActivityIndicator.m; sourceTree = "<group>"; };
+		D0FDF6A91650628100D2E097 /* SGAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGAlertView.h; path = UIKit/SGAlertView.h; sourceTree = "<group>"; };
+		D0FDF6AA1650628100D2E097 /* SGAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGAlertView.m; path = UIKit/SGAlertView.m; sourceTree = "<group>"; };
+		D0FDF6AB1650628100D2E097 /* SGDeviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGDeviceHelper.h; path = UIKit/SGDeviceHelper.h; sourceTree = "<group>"; };
+		D0FDF6AC1650628100D2E097 /* SGDeviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGDeviceHelper.m; path = UIKit/SGDeviceHelper.m; sourceTree = "<group>"; };
+		D0FDF6AD1650628100D2E097 /* SGPopoverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGPopoverManager.h; path = UIKit/SGPopoverManager.h; sourceTree = "<group>"; };
+		D0FDF6AE1650628100D2E097 /* SGPopoverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGPopoverManager.m; path = UIKit/SGPopoverManager.m; sourceTree = "<group>"; };
+		D0FDF6AF1650628100D2E097 /* SGPromptedAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGPromptedAlertView.h; path = UIKit/SGPromptedAlertView.h; sourceTree = "<group>"; };
+		D0FDF6B01650628100D2E097 /* SGPromptedAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGPromptedAlertView.m; path = UIKit/SGPromptedAlertView.m; sourceTree = "<group>"; };
+		D0FDF6B11650628100D2E097 /* UIResponder+TextInsertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIResponder+TextInsertion.h"; path = "UIKit/UIResponder+TextInsertion.h"; sourceTree = "<group>"; };
+		D0FDF6B21650628100D2E097 /* UIResponder+TextInsertion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+TextInsertion.m"; path = "UIKit/UIResponder+TextInsertion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,8 +309,24 @@
 		D083381F163D920E00EA32D6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D0FDF6A71650628100D2E097 /* SGActivityIndicator.h */,
+				D0FDF6A81650628100D2E097 /* SGActivityIndicator.m */,
+				D0FDF6A91650628100D2E097 /* SGAlertView.h */,
+				D0FDF6AA1650628100D2E097 /* SGAlertView.m */,
+				D0FDF6AB1650628100D2E097 /* SGDeviceHelper.h */,
+				D0FDF6AC1650628100D2E097 /* SGDeviceHelper.m */,
+				D0FDF6AD1650628100D2E097 /* SGPopoverManager.h */,
+				D0FDF6AE1650628100D2E097 /* SGPopoverManager.m */,
+				D0FDF6AF1650628100D2E097 /* SGPromptedAlertView.h */,
+				D0FDF6B01650628100D2E097 /* SGPromptedAlertView.m */,
+				D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */,
+				D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */,
 				D0833821163D92B300EA32D6 /* UIApplication+SGAdditions.h */,
 				D0833822163D92B300EA32D6 /* UIApplication+SGAdditions.m */,
+				D0FDF6A31650617700D2E097 /* UIFont+SGExtensions.h */,
+				D0FDF6A41650617700D2E097 /* UIFont+SGExtensions.m */,
+				D0FDF6B11650628100D2E097 /* UIResponder+TextInsertion.h */,
+				D0FDF6B21650628100D2E097 /* UIResponder+TextInsertion.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -345,6 +397,7 @@
 				D083383F163D94EF00EA32D6 /* SGMimiMailer */,
 				D0C067E3160F857F00CCEE1E /* SGKeychain */,
 				D0833847163D95E000EA32D6 /* NSData+Base64 */,
+				D0FDF69E165060D100D2E097 /* UIView+Position */,
 			);
 			path = External;
 			sourceTree = "<group>";
@@ -401,6 +454,15 @@
 			name = SGKeychain;
 			sourceTree = "<group>";
 		};
+		D0FDF69E165060D100D2E097 /* UIView+Position */ = {
+			isa = PBXGroup;
+			children = (
+				D0FDF69F165060D100D2E097 /* UIView+position.h */,
+				D0FDF6A0165060D100D2E097 /* UIView+position.m */,
+			);
+			path = "UIView+Position";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -430,6 +492,15 @@
 				D0796B5516505A4500E2C9A4 /* NSString+SGAdditions.h in Headers */,
 				D0796B5616505A4500E2C9A4 /* NSURL+SGAdditions.h in Headers */,
 				D0796B5716505A4500E2C9A4 /* NSSet+SGExtensions.h in Headers */,
+				D0FDF69B1650607900D2E097 /* UIAlertView+SGExtensions.h in Headers */,
+				D0FDF6A1165060D100D2E097 /* UIView+position.h in Headers */,
+				D0FDF6A51650617700D2E097 /* UIFont+SGExtensions.h in Headers */,
+				D0FDF6B31650628100D2E097 /* SGActivityIndicator.h in Headers */,
+				D0FDF6B51650628100D2E097 /* SGAlertView.h in Headers */,
+				D0FDF6B71650628100D2E097 /* SGDeviceHelper.h in Headers */,
+				D0FDF6B91650628100D2E097 /* SGPopoverManager.h in Headers */,
+				D0FDF6BB1650628100D2E097 /* SGPromptedAlertView.h in Headers */,
+				D0FDF6BD1650628100D2E097 /* UIResponder+TextInsertion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,6 +637,15 @@
 				D0796B3A165059D200E2C9A4 /* NSString+SGAdditions.m in Sources */,
 				D0796B3B165059D200E2C9A4 /* NSURL+SGAdditions.m in Sources */,
 				D0796B3C165059D200E2C9A4 /* NSSet+SGExtensions.m in Sources */,
+				D0FDF69C1650607900D2E097 /* UIAlertView+SGExtensions.m in Sources */,
+				D0FDF6A2165060D100D2E097 /* UIView+position.m in Sources */,
+				D0FDF6A61650617700D2E097 /* UIFont+SGExtensions.m in Sources */,
+				D0FDF6B41650628100D2E097 /* SGActivityIndicator.m in Sources */,
+				D0FDF6B61650628100D2E097 /* SGAlertView.m in Sources */,
+				D0FDF6B81650628100D2E097 /* SGDeviceHelper.m in Sources */,
+				D0FDF6BA1650628100D2E097 /* SGPopoverManager.m in Sources */,
+				D0FDF6BC1650628100D2E097 /* SGPromptedAlertView.m in Sources */,
+				D0FDF6BE1650628100D2E097 /* UIResponder+TextInsertion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
