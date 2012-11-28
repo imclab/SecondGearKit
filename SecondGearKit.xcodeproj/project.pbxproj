@@ -19,7 +19,6 @@
 		D05E3C29165545CE007ACA35 /* SGManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3C25165545CD007ACA35 /* SGManagedObject.m */; };
 		D0796B17165058E800E2C9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0796B16165058E800E2C9A4 /* Foundation.framework */; };
 		D0796B2A165059D200E2C9A4 /* UIApplication+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833822163D92B300EA32D6 /* UIApplication+SGAdditions.m */; };
-		D0796B2B165059D200E2C9A4 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m */; };
 		D0796B2C165059D200E2C9A4 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384C163D96B500EA32D6 /* DDASLLogger.m */; };
 		D0796B2D165059D200E2C9A4 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384E163D96B500EA32D6 /* DDFileLogger.m */; };
 		D0796B2E165059D200E2C9A4 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833850163D96B500EA32D6 /* DDLog.m */; };
@@ -43,7 +42,6 @@
 		D0796B4016505A0700E2C9A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D011D8D4143A1C6E009C1B68 /* Security.framework */; };
 		D0796B4216505A2000E2C9A4 /* SecondGearKit-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D0796B1B165058E800E2C9A4 /* SecondGearKit-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0796B4316505A4500E2C9A4 /* UIApplication+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833821163D92B300EA32D6 /* UIApplication+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0796B4416505A4500E2C9A4 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833849163D96B500EA32D6 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0796B4516505A4500E2C9A4 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384B163D96B500EA32D6 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0796B4616505A4500E2C9A4 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384D163D96B500EA32D6 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0796B4716505A4500E2C9A4 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384F163D96B500EA32D6 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -71,8 +69,6 @@
 		D0833842163D953500EA32D6 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833840163D953500EA32D6 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0833843163D953500EA32D6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D0833841163D953500EA32D6 /* Reachability.m */; };
 		D0833846163D954D00EA32D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0833845163D954D00EA32D6 /* SystemConfiguration.framework */; };
-		D0833859163D96B500EA32D6 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D0833849163D96B500EA32D6 /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D083385A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m */; };
 		D083385B163D96B500EA32D6 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384B163D96B500EA32D6 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D083385C163D96B500EA32D6 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D083384C163D96B500EA32D6 /* DDASLLogger.m */; };
 		D083385D163D96B500EA32D6 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D083384D163D96B500EA32D6 /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -154,8 +150,6 @@
 		D0833840163D953500EA32D6 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Reachability/Reachability.h; sourceTree = "<group>"; };
 		D0833841163D953500EA32D6 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Reachability/Reachability.m; sourceTree = "<group>"; };
 		D0833845163D954D00EA32D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D0833849163D96B500EA32D6 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		D083384A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		D083384B163D96B500EA32D6 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
 		D083384C163D96B500EA32D6 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
 		D083384D163D96B500EA32D6 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
@@ -367,8 +361,6 @@
 		D0833848163D96B500EA32D6 /* Lumberjack */ = {
 			isa = PBXGroup;
 			children = (
-				D0833849163D96B500EA32D6 /* DDAbstractDatabaseLogger.h */,
-				D083384A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m */,
 				D083384B163D96B500EA32D6 /* DDASLLogger.h */,
 				D083384C163D96B500EA32D6 /* DDASLLogger.m */,
 				D083384D163D96B500EA32D6 /* DDFileLogger.h */,
@@ -480,7 +472,6 @@
 			files = (
 				D0796B4216505A2000E2C9A4 /* SecondGearKit-iOS.h in Headers */,
 				D0796B4316505A4500E2C9A4 /* UIApplication+SGAdditions.h in Headers */,
-				D0796B4416505A4500E2C9A4 /* DDAbstractDatabaseLogger.h in Headers */,
 				D0796B4516505A4500E2C9A4 /* DDASLLogger.h in Headers */,
 				D0796B4616505A4500E2C9A4 /* DDFileLogger.h in Headers */,
 				D0796B4716505A4500E2C9A4 /* DDLog.h in Headers */,
@@ -530,7 +521,6 @@
 				D0833839163D942600EA32D6 /* NSSet+SGExtensions.h in Headers */,
 				D083383D163D94EB00EA32D6 /* SGMimiMailer.h in Headers */,
 				D0833842163D953500EA32D6 /* Reachability.h in Headers */,
-				D0833859163D96B500EA32D6 /* DDAbstractDatabaseLogger.h in Headers */,
 				D083385B163D96B500EA32D6 /* DDASLLogger.h in Headers */,
 				D083385D163D96B500EA32D6 /* DDFileLogger.h in Headers */,
 				D083385F163D96B500EA32D6 /* DDLog.h in Headers */,
@@ -627,7 +617,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0796B2A165059D200E2C9A4 /* UIApplication+SGAdditions.m in Sources */,
-				D0796B2B165059D200E2C9A4 /* DDAbstractDatabaseLogger.m in Sources */,
 				D0796B2C165059D200E2C9A4 /* DDASLLogger.m in Sources */,
 				D0796B2D165059D200E2C9A4 /* DDFileLogger.m in Sources */,
 				D0796B2E165059D200E2C9A4 /* DDLog.m in Sources */,
@@ -678,7 +667,6 @@
 				D083383A163D942600EA32D6 /* NSSet+SGExtensions.m in Sources */,
 				D083383E163D94EB00EA32D6 /* SGMimiMailer.m in Sources */,
 				D0833843163D953500EA32D6 /* Reachability.m in Sources */,
-				D083385A163D96B500EA32D6 /* DDAbstractDatabaseLogger.m in Sources */,
 				D083385C163D96B500EA32D6 /* DDASLLogger.m in Sources */,
 				D083385E163D96B500EA32D6 /* DDFileLogger.m in Sources */,
 				D0833860163D96B500EA32D6 /* DDLog.m in Sources */,
