@@ -41,3 +41,6 @@
 #import "UIApplication+SGAdditions.h"
 #import "UIFont+SGExtensions.h"
 #import "UIResponder+TextInsertion.h"
+
+// Location
+#import "SGLocationManager.h"

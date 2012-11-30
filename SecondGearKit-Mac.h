@@ -31,3 +31,6 @@
 
 // AppKit
 #import "NSAlert+SGAdditions.h"
+
+// Location
+#import "SGLocationManager.h"

@@ -101,6 +101,10 @@
 		D09DF2E21438F91700513C9F /* NSString+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2781438E2BD00513C9F /* NSString+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2E41438F91700513C9F /* NSURL+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26B1438E2BD00513C9F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A8CD5516684BD6001BF249 /* SGLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CD5316684BD6001BF249 /* SGLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A8CD5616684BD6001BF249 /* SGLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CD5316684BD6001BF249 /* SGLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A8CD5716684BD6001BF249 /* SGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CD5416684BD6001BF249 /* SGLocationManager.m */; };
+		D0A8CD5816684BD6001BF249 /* SGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CD5416684BD6001BF249 /* SGLocationManager.m */; };
 		D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C067DF160F857C00CCEE1E /* SGKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C067E2160F857C00CCEE1E /* SGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C067E0160F857C00CCEE1E /* SGKeychain.m */; };
 		D0FDF69B1650607900D2E097 /* UIAlertView+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -184,6 +188,8 @@
 		D09DF2C71438F8EB00513C9F /* SecondGearKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecondGearKit-Info.plist"; sourceTree = "<group>"; };
 		D09DF2C91438F8EB00513C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D09DF2CB1438F8EB00513C9F /* SecondGearKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Prefix.pch"; sourceTree = "<group>"; };
+		D0A8CD5316684BD6001BF249 /* SGLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationManager.h; sourceTree = "<group>"; };
+		D0A8CD5416684BD6001BF249 /* SGLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationManager.m; sourceTree = "<group>"; };
 		D0C067DF160F857C00CCEE1E /* SGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGKeychain.h; path = SGKeychain/SGKeychain.h; sourceTree = "<group>"; };
 		D0C067E0160F857C00CCEE1E /* SGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGKeychain.m; path = SGKeychain/SGKeychain.m; sourceTree = "<group>"; };
 		D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SGExtensions.h"; path = "UIKit/UIAlertView+SGExtensions.h"; sourceTree = "<group>"; };
@@ -246,6 +252,7 @@
 			children = (
 				D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */,
 				D0796B1B165058E800E2C9A4 /* SecondGearKit-iOS.h */,
+				D0A8CD5116684BC7001BF249 /* Location */,
 				D083381F163D920E00EA32D6 /* UIKit */,
 				D011D8DE143A3F12009C1B68 /* AppKit */,
 				D09DF26A1438E2BD00513C9F /* External */,
@@ -445,6 +452,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D0A8CD5116684BC7001BF249 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8CD5316684BD6001BF249 /* SGLocationManager.h */,
+				D0A8CD5416684BD6001BF249 /* SGLocationManager.m */,
+			);
+			name = Location;
+			sourceTree = "<group>";
+		};
 		D0C067E3160F857F00CCEE1E /* SGKeychain */ = {
 			isa = PBXGroup;
 			children = (
@@ -500,6 +516,7 @@
 				D0FDF6B91650628100D2E097 /* SGPopoverManager.h in Headers */,
 				D0FDF6BB1650628100D2E097 /* SGPromptedAlertView.h in Headers */,
 				D0FDF6BD1650628100D2E097 /* UIResponder+TextInsertion.h in Headers */,
+				D0A8CD5616684BD6001BF249 /* SGLocationManager.h in Headers */,
 				D05E3C27165545CD007ACA35 /* SGManagedObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +544,7 @@
 				D0833861163D96B500EA32D6 /* DDTTYLogger.h in Headers */,
 				D011D8CA143A128C009C1B68 /* NSArray+SGAdditions.h in Headers */,
 				D05E3C26165545CD007ACA35 /* SGManagedObject.h in Headers */,
+				D0A8CD5516684BD6001BF249 /* SGLocationManager.h in Headers */,
 				D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */,
 				D0833863163D96B500EA32D6 /* ContextFilterLogFormatter.h in Headers */,
 				D0833865163D96B500EA32D6 /* DispatchQueueLogFormatter.h in Headers */,
@@ -646,6 +664,7 @@
 				D0FDF6BC1650628100D2E097 /* SGPromptedAlertView.m in Sources */,
 				D0FDF6BE1650628100D2E097 /* UIResponder+TextInsertion.m in Sources */,
 				D05E3C29165545CE007ACA35 /* SGManagedObject.m in Sources */,
+				D0A8CD5816684BD6001BF249 /* SGLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +693,7 @@
 				D0833864163D96B500EA32D6 /* ContextFilterLogFormatter.m in Sources */,
 				D0833866163D96B500EA32D6 /* DispatchQueueLogFormatter.m in Sources */,
 				D05E3C28165545CE007ACA35 /* SGManagedObject.m in Sources */,
+				D0A8CD5716684BD6001BF249 /* SGLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
