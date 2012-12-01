@@ -76,8 +76,6 @@ static NSDictionary *_sPersistentStoreOptions = nil;
         _sMainObjectContext.persistentStoreCoordinator = coordinator;
     }
 	
-	NSAssert(dispatch_get_current_queue() == dispatch_get_main_queue(), @"Unsafe access of managed object context from non-main thread");
-
     return _sMainObjectContext;
 }
 

@@ -30,6 +30,10 @@
 #import "NSString+SGAdditions.h"
 #import "NSURL+SGAdditions.h"
 #import "NSSet+SGExtensions.h"
+#import "SGUtilities.h"
+
+// Core Data
+#import "SGManagedObject.h"
 
 // UIKit
 #import "SGActivityIndicator.h"
