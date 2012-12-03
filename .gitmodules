@@ -10,3 +10,6 @@
 [submodule "External/CocoaLumberjack"]
 	path = External/CocoaLumberjack
 	url = git@github.com:secondgear/CocoaLumberjack.git
+[submodule "External/MBProgressHUD"]
+	path = External/MBProgressHUD
+	url = git@github.com:secondgear/MBProgressHUD.git
