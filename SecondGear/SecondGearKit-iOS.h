@@ -32,6 +32,9 @@
 #import "NSSet+SGExtensions.h"
 #import "SGUtilities.h"
 
+// Social
+#import "SGTwitterController.h"
+
 // Core Data
 #import "SGManagedObject.h"
 
@@ -45,6 +48,8 @@
 #import "UIApplication+SGAdditions.h"
 #import "UIFont+SGExtensions.h"
 #import "UIResponder+TextInsertion.h"
+#import "MBProgressHUD.h"
+#import "SGProgressHUD.h"
 
 // Location
 #import "SGLocationManager.h"

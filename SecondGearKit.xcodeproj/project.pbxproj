@@ -109,6 +109,16 @@
 		D0A8CDBC16695A64001BF249 /* SGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CDB916695A64001BF249 /* SGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0A8CDBD16695A64001BF249 /* SGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CDBA16695A64001BF249 /* SGUtilities.m */; };
 		D0A8CDBE16695A64001BF249 /* SGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CDBA16695A64001BF249 /* SGUtilities.m */; };
+		D0A8CE42166C5A24001BF249 /* SGTwitterController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CE40166C5A24001BF249 /* SGTwitterController.h */; };
+		D0A8CE43166C5A24001BF249 /* SGTwitterController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CE40166C5A24001BF249 /* SGTwitterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A8CE44166C5A24001BF249 /* SGTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CE41166C5A24001BF249 /* SGTwitterController.m */; };
+		D0A8CE45166C5A24001BF249 /* SGTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CE41166C5A24001BF249 /* SGTwitterController.m */; };
+		D0A8CE48166C5A3D001BF249 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A8CE47166C5A3D001BF249 /* Social.framework */; };
+		D0A8CE4D166C5AC2001BF249 /* SGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CE4B166C5AC2001BF249 /* SGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A8CE4E166C5AC2001BF249 /* SGProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CE4C166C5AC2001BF249 /* SGProgressHUD.m */; };
+		D0A8CE51166C5AF5001BF249 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CE4F166C5AF5001BF249 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A8CE52166C5AF5001BF249 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CE50166C5AF5001BF249 /* MBProgressHUD.m */; };
+		D0A8CE55166C5B75001BF249 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A8CE54166C5B75001BF249 /* Accounts.framework */; };
 		D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C067DF160F857C00CCEE1E /* SGKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C067E2160F857C00CCEE1E /* SGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C067E0160F857C00CCEE1E /* SGKeychain.m */; };
 		D0FDF69B1650607900D2E097 /* UIAlertView+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -196,6 +206,14 @@
 		D0A8CD5416684BD6001BF249 /* SGLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationManager.m; sourceTree = "<group>"; };
 		D0A8CDB916695A64001BF249 /* SGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGUtilities.h; sourceTree = "<group>"; };
 		D0A8CDBA16695A64001BF249 /* SGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGUtilities.m; sourceTree = "<group>"; };
+		D0A8CE40166C5A24001BF249 /* SGTwitterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGTwitterController.h; sourceTree = "<group>"; };
+		D0A8CE41166C5A24001BF249 /* SGTwitterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGTwitterController.m; sourceTree = "<group>"; };
+		D0A8CE47166C5A3D001BF249 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		D0A8CE4B166C5AC2001BF249 /* SGProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGProgressHUD.h; path = UIKit/SGProgressHUD.h; sourceTree = "<group>"; };
+		D0A8CE4C166C5AC2001BF249 /* SGProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGProgressHUD.m; path = UIKit/SGProgressHUD.m; sourceTree = "<group>"; };
+		D0A8CE4F166C5AF5001BF249 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
+		D0A8CE50166C5AF5001BF249 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
+		D0A8CE54166C5B75001BF249 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
 		D0C067DF160F857C00CCEE1E /* SGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGKeychain.h; path = SGKeychain/SGKeychain.h; sourceTree = "<group>"; };
 		D0C067E0160F857C00CCEE1E /* SGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGKeychain.m; path = SGKeychain/SGKeychain.m; sourceTree = "<group>"; };
 		D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SGExtensions.h"; path = "UIKit/UIAlertView+SGExtensions.h"; sourceTree = "<group>"; };
@@ -223,6 +241,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A8CE48166C5A3D001BF249 /* Social.framework in Frameworks */,
+				D0A8CE55166C5B75001BF249 /* Accounts.framework in Frameworks */,
 				D0796B5D16505B0A00E2C9A4 /* UIKit.framework in Frameworks */,
 				D0796B17165058E800E2C9A4 /* Foundation.framework in Frameworks */,
 				D0796B4016505A0700E2C9A4 /* Security.framework in Frameworks */,
@@ -258,6 +278,7 @@
 			children = (
 				D09DF29B1438E43F00513C9F /* SecondGearKit-Mac.h */,
 				D0796B1B165058E800E2C9A4 /* SecondGearKit-iOS.h */,
+				D0A8CE3F166C5A24001BF249 /* Social */,
 				D0A8CD5116684BC7001BF249 /* Location */,
 				D083381F163D920E00EA32D6 /* UIKit */,
 				D011D8DE143A3F12009C1B68 /* AppKit */,
@@ -282,6 +303,8 @@
 		D01AE79E14320CD800677EBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0A8CE54166C5B75001BF249 /* Accounts.framework */,
+				D0A8CE47166C5A3D001BF249 /* Social.framework */,
 				D0796B5C16505B0A00E2C9A4 /* UIKit.framework */,
 				D0833845163D954D00EA32D6 /* SystemConfiguration.framework */,
 				D011D8D4143A1C6E009C1B68 /* Security.framework */,
@@ -322,6 +345,8 @@
 		D083381F163D920E00EA32D6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D0A8CE4B166C5AC2001BF249 /* SGProgressHUD.h */,
+				D0A8CE4C166C5AC2001BF249 /* SGProgressHUD.m */,
 				D0FDF6A71650628100D2E097 /* SGActivityIndicator.h */,
 				D0FDF6A81650628100D2E097 /* SGActivityIndicator.m */,
 				D0FDF6A91650628100D2E097 /* SGAlertView.h */,
@@ -403,6 +428,7 @@
 		D09DF26A1438E2BD00513C9F /* External */ = {
 			isa = PBXGroup;
 			children = (
+				D0A8CE53166C5AF8001BF249 /* MBProgressHUD */,
 				D0833848163D96B500EA32D6 /* Lumberjack */,
 				D0833844163D953900EA32D6 /* Reachability */,
 				D083383F163D94EF00EA32D6 /* SGMimiMailer */,
@@ -469,6 +495,24 @@
 			name = Location;
 			sourceTree = "<group>";
 		};
+		D0A8CE3F166C5A24001BF249 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8CE40166C5A24001BF249 /* SGTwitterController.h */,
+				D0A8CE41166C5A24001BF249 /* SGTwitterController.m */,
+			);
+			path = Social;
+			sourceTree = "<group>";
+		};
+		D0A8CE53166C5AF8001BF249 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D0A8CE4F166C5AF5001BF249 /* MBProgressHUD.h */,
+				D0A8CE50166C5AF5001BF249 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		D0C067E3160F857F00CCEE1E /* SGKeychain */ = {
 			isa = PBXGroup;
 			children = (
@@ -527,6 +571,9 @@
 				D0A8CD5616684BD6001BF249 /* SGLocationManager.h in Headers */,
 				D05E3C27165545CD007ACA35 /* SGManagedObject.h in Headers */,
 				D0A8CDBC16695A64001BF249 /* SGUtilities.h in Headers */,
+				D0A8CE43166C5A24001BF249 /* SGTwitterController.h in Headers */,
+				D0A8CE51166C5AF5001BF249 /* MBProgressHUD.h in Headers */,
+				D0A8CE4D166C5AC2001BF249 /* SGProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +605,7 @@
 				D0A8CDBB16695A64001BF249 /* SGUtilities.h in Headers */,
 				D0833863163D96B500EA32D6 /* ContextFilterLogFormatter.h in Headers */,
 				D0833865163D96B500EA32D6 /* DispatchQueueLogFormatter.h in Headers */,
+				D0A8CE42166C5A24001BF249 /* SGTwitterController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +724,9 @@
 				D05E3C29165545CE007ACA35 /* SGManagedObject.m in Sources */,
 				D0A8CD5816684BD6001BF249 /* SGLocationManager.m in Sources */,
 				D0A8CDBE16695A64001BF249 /* SGUtilities.m in Sources */,
+				D0A8CE45166C5A24001BF249 /* SGTwitterController.m in Sources */,
+				D0A8CE4E166C5AC2001BF249 /* SGProgressHUD.m in Sources */,
+				D0A8CE52166C5AF5001BF249 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,6 +757,7 @@
 				D05E3C28165545CE007ACA35 /* SGManagedObject.m in Sources */,
 				D0A8CD5716684BD6001BF249 /* SGLocationManager.m in Sources */,
 				D0A8CDBD16695A64001BF249 /* SGUtilities.m in Sources */,
+				D0A8CE44166C5A24001BF249 /* SGTwitterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
