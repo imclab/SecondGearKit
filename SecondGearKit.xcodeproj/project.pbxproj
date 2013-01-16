@@ -13,6 +13,10 @@
 		D011D8D5143A1C6E009C1B68 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D011D8D4143A1C6E009C1B68 /* Security.framework */; };
 		D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D011D8DF143A3F27009C1B68 /* NSAlert+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D011D8E2143A3F27009C1B68 /* NSAlert+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D011D8E0143A3F27009C1B68 /* NSAlert+SGAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D012F50F16A75021002E0328 /* SGButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D012F50B16A75021002E0328 /* SGButtonItem.m */; };
+		D012F51016A75021002E0328 /* SGButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D012F50C16A75021002E0328 /* SGButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D012F51116A75021002E0328 /* UIActionSheet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D012F50D16A75021002E0328 /* UIActionSheet+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D012F51216A75021002E0328 /* UIActionSheet+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D012F50E16A75021002E0328 /* UIActionSheet+SGExtensions.m */; };
 		D05E3C26165545CD007ACA35 /* SGManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D05E3C24165545CD007ACA35 /* SGManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D05E3C27165545CD007ACA35 /* SGManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D05E3C24165545CD007ACA35 /* SGManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D05E3C28165545CE007ACA35 /* SGManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3C25165545CD007ACA35 /* SGManagedObject.m */; };
@@ -148,6 +152,10 @@
 		D011D8D4143A1C6E009C1B68 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D011D8DF143A3F27009C1B68 /* NSAlert+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAlert+SGAdditions.h"; path = "AppKit/NSAlert+SGAdditions.h"; sourceTree = "<group>"; };
 		D011D8E0143A3F27009C1B68 /* NSAlert+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAlert+SGAdditions.m"; path = "AppKit/NSAlert+SGAdditions.m"; sourceTree = "<group>"; };
+		D012F50B16A75021002E0328 /* SGButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGButtonItem.m; path = UIKit/SGButtonItem.m; sourceTree = "<group>"; };
+		D012F50C16A75021002E0328 /* SGButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGButtonItem.h; path = UIKit/SGButtonItem.h; sourceTree = "<group>"; };
+		D012F50D16A75021002E0328 /* UIActionSheet+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+SGExtensions.h"; path = "UIKit/UIActionSheet+SGExtensions.h"; sourceTree = "<group>"; };
+		D012F50E16A75021002E0328 /* UIActionSheet+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+SGExtensions.m"; path = "UIKit/UIActionSheet+SGExtensions.m"; sourceTree = "<group>"; };
 		D01AE79F14320CD800677EBE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D01AE7A214320CD800677EBE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D01AE7A314320CD800677EBE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -365,6 +373,10 @@
 				D0FDF6A41650617700D2E097 /* UIFont+SGExtensions.m */,
 				D0FDF6B11650628100D2E097 /* UIResponder+TextInsertion.h */,
 				D0FDF6B21650628100D2E097 /* UIResponder+TextInsertion.m */,
+				D012F50B16A75021002E0328 /* SGButtonItem.m */,
+				D012F50C16A75021002E0328 /* SGButtonItem.h */,
+				D012F50D16A75021002E0328 /* UIActionSheet+SGExtensions.h */,
+				D012F50E16A75021002E0328 /* UIActionSheet+SGExtensions.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -574,6 +586,8 @@
 				D0A8CE43166C5A24001BF249 /* SGTwitterController.h in Headers */,
 				D0A8CE51166C5AF5001BF249 /* MBProgressHUD.h in Headers */,
 				D0A8CE4D166C5AC2001BF249 /* SGProgressHUD.h in Headers */,
+				D012F51016A75021002E0328 /* SGButtonItem.h in Headers */,
+				D012F51116A75021002E0328 /* UIActionSheet+SGExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +741,8 @@
 				D0A8CE45166C5A24001BF249 /* SGTwitterController.m in Sources */,
 				D0A8CE4E166C5AC2001BF249 /* SGProgressHUD.m in Sources */,
 				D0A8CE52166C5AF5001BF249 /* MBProgressHUD.m in Sources */,
+				D012F50F16A75021002E0328 /* SGButtonItem.m in Sources */,
+				D012F51216A75021002E0328 /* UIActionSheet+SGExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
