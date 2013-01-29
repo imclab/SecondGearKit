@@ -17,6 +17,7 @@
 		D012F51016A75021002E0328 /* SGButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D012F50C16A75021002E0328 /* SGButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D012F51116A75021002E0328 /* UIActionSheet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D012F50D16A75021002E0328 /* UIActionSheet+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D012F51216A75021002E0328 /* UIActionSheet+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D012F50E16A75021002E0328 /* UIActionSheet+SGExtensions.m */; };
+		D02DB69816B87E2500055E69 /* UIAlertView+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */; };
 		D05E3C26165545CD007ACA35 /* SGManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D05E3C24165545CD007ACA35 /* SGManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D05E3C27165545CD007ACA35 /* SGManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D05E3C24165545CD007ACA35 /* SGManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D05E3C28165545CE007ACA35 /* SGManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3C25165545CD007ACA35 /* SGManagedObject.m */; };
@@ -774,6 +775,7 @@
 				D0A8CD5716684BD6001BF249 /* SGLocationManager.m in Sources */,
 				D0A8CDBD16695A64001BF249 /* SGUtilities.m in Sources */,
 				D0A8CE44166C5A24001BF249 /* SGTwitterController.m in Sources */,
+				D02DB69816B87E2500055E69 /* UIAlertView+SGExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
