@@ -17,7 +17,6 @@
 		D012F51016A75021002E0328 /* SGButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = D012F50C16A75021002E0328 /* SGButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D012F51116A75021002E0328 /* UIActionSheet+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D012F50D16A75021002E0328 /* UIActionSheet+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D012F51216A75021002E0328 /* UIActionSheet+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D012F50E16A75021002E0328 /* UIActionSheet+SGExtensions.m */; };
-		D02DB69816B87E2500055E69 /* UIAlertView+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */; };
 		D05E3C26165545CD007ACA35 /* SGManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D05E3C24165545CD007ACA35 /* SGManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D05E3C27165545CD007ACA35 /* SGManagedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D05E3C24165545CD007ACA35 /* SGManagedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D05E3C28165545CE007ACA35 /* SGManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D05E3C25165545CD007ACA35 /* SGManagedObject.m */; };
@@ -106,17 +105,14 @@
 		D09DF2E21438F91700513C9F /* NSString+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF2781438E2BD00513C9F /* NSString+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2E41438F91700513C9F /* NSURL+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF27C1438E2BD00513C9F /* NSURL+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D09DF2EB1438FB7200513C9F /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = D09DF26B1438E2BD00513C9F /* NSData+Base64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0A8CD5516684BD6001BF249 /* SGLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CD5316684BD6001BF249 /* SGLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0A7C44516B9CAAA0086F638 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A7C44416B9CAA90086F638 /* CoreLocation.framework */; };
 		D0A8CD5616684BD6001BF249 /* SGLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CD5316684BD6001BF249 /* SGLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0A8CD5716684BD6001BF249 /* SGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CD5416684BD6001BF249 /* SGLocationManager.m */; };
 		D0A8CD5816684BD6001BF249 /* SGLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CD5416684BD6001BF249 /* SGLocationManager.m */; };
 		D0A8CDBB16695A64001BF249 /* SGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CDB916695A64001BF249 /* SGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0A8CDBC16695A64001BF249 /* SGUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CDB916695A64001BF249 /* SGUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0A8CDBD16695A64001BF249 /* SGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CDBA16695A64001BF249 /* SGUtilities.m */; };
 		D0A8CDBE16695A64001BF249 /* SGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CDBA16695A64001BF249 /* SGUtilities.m */; };
-		D0A8CE42166C5A24001BF249 /* SGTwitterController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CE40166C5A24001BF249 /* SGTwitterController.h */; };
 		D0A8CE43166C5A24001BF249 /* SGTwitterController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CE40166C5A24001BF249 /* SGTwitterController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0A8CE44166C5A24001BF249 /* SGTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CE41166C5A24001BF249 /* SGTwitterController.m */; };
 		D0A8CE45166C5A24001BF249 /* SGTwitterController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A8CE41166C5A24001BF249 /* SGTwitterController.m */; };
 		D0A8CE48166C5A3D001BF249 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A8CE47166C5A3D001BF249 /* Social.framework */; };
 		D0A8CE4D166C5AC2001BF249 /* SGProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A8CE4B166C5AC2001BF249 /* SGProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -211,6 +207,7 @@
 		D09DF2C71438F8EB00513C9F /* SecondGearKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecondGearKit-Info.plist"; sourceTree = "<group>"; };
 		D09DF2C91438F8EB00513C9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D09DF2CB1438F8EB00513C9F /* SecondGearKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecondGearKit-Prefix.pch"; sourceTree = "<group>"; };
+		D0A7C44416B9CAA90086F638 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D0A8CD5316684BD6001BF249 /* SGLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationManager.h; sourceTree = "<group>"; };
 		D0A8CD5416684BD6001BF249 /* SGLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationManager.m; sourceTree = "<group>"; };
 		D0A8CDB916695A64001BF249 /* SGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGUtilities.h; sourceTree = "<group>"; };
@@ -263,6 +260,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A7C44516B9CAAA0086F638 /* CoreLocation.framework in Frameworks */,
 				D0833846163D954D00EA32D6 /* SystemConfiguration.framework in Frameworks */,
 				D011D8D5143A1C6E009C1B68 /* Security.framework in Frameworks */,
 				D011D8D3143A1C69009C1B68 /* Carbon.framework in Frameworks */,
@@ -312,6 +310,7 @@
 		D01AE79E14320CD800677EBE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D0A7C44416B9CAA90086F638 /* CoreLocation.framework */,
 				D0A8CE54166C5B75001BF249 /* Accounts.framework */,
 				D0A8CE47166C5A3D001BF249 /* Social.framework */,
 				D0796B5C16505B0A00E2C9A4 /* UIKit.framework */,
@@ -615,12 +614,10 @@
 				D0833861163D96B500EA32D6 /* DDTTYLogger.h in Headers */,
 				D011D8CA143A128C009C1B68 /* NSArray+SGAdditions.h in Headers */,
 				D05E3C26165545CD007ACA35 /* SGManagedObject.h in Headers */,
-				D0A8CD5516684BD6001BF249 /* SGLocationManager.h in Headers */,
 				D011D8E1143A3F27009C1B68 /* NSAlert+SGAdditions.h in Headers */,
 				D0A8CDBB16695A64001BF249 /* SGUtilities.h in Headers */,
 				D0833863163D96B500EA32D6 /* ContextFilterLogFormatter.h in Headers */,
 				D0833865163D96B500EA32D6 /* DispatchQueueLogFormatter.h in Headers */,
-				D0A8CE42166C5A24001BF249 /* SGTwitterController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,10 +769,7 @@
 				D0833864163D96B500EA32D6 /* ContextFilterLogFormatter.m in Sources */,
 				D0833866163D96B500EA32D6 /* DispatchQueueLogFormatter.m in Sources */,
 				D05E3C28165545CE007ACA35 /* SGManagedObject.m in Sources */,
-				D0A8CD5716684BD6001BF249 /* SGLocationManager.m in Sources */,
 				D0A8CDBD16695A64001BF249 /* SGUtilities.m in Sources */,
-				D0A8CE44166C5A24001BF249 /* SGTwitterController.m in Sources */,
-				D02DB69816B87E2500055E69 /* UIAlertView+SGExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
