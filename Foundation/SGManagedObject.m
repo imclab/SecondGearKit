@@ -54,7 +54,17 @@ static NSDictionary *_sPersistentStoreOptions = nil;
 	}
     
     NSDictionary *applicationInfo = [[NSBundle mainBundle] infoDictionary];
+    
+#if defined(BETA)
+    // Betas are called "#{AppName} Beta" by convention, so we need to strip that off
+    // so we can get a proper momd name.
+    NSRange rangeOfSubstring = [applicationInfo[@"CFBundleName"] rangeOfString:@" Beta"];
+    NSString *appName = [applicationInfo[@"CFBundleName"] substringToIndex:rangeOfSubstring.location];
+#else
     NSString *appName = applicationInfo[@"CFBundleName"];
+#endif
+    
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:appName ofType:@"momd"];
     NSURL *momURL = [NSURL fileURLWithPath:path];
     _sManagedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:momURL];
