@@ -24,10 +24,9 @@
  
  */
 
-
-
 #import "SGAlertView.h"
 
+NSString * const SGAlertTitleKey = @"SGAlertTitleKey";
 
 @implementation SGAlertView
 

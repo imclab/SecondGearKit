@@ -29,8 +29,7 @@
 
 // If this key is in the NSError user info, it's value is used for the title
 // Otherwise an empty title will be used
-static const NSString *SGAlertTitleKey = @"SGAlertTitleKey";
-
+extern NSString * const SGAlertTitleKey;
 
 typedef void (^SGAlertViewCompletionHandlerBlock)();
 
