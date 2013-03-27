@@ -52,6 +52,7 @@
 #import "SGProgressHUD.h"
 #import "SGButtonItem.h"
 #import "UIActionSheet+SGExtensions.h"
+#import "UIImage+SGAdditions.h"
 
 // Location
 #import "SGLocationManager.h"
