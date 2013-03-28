@@ -21,6 +21,4 @@ typedef NS_ENUM(NSInteger, SGImageResizeMethod) {
 
 - (UIImage *)resizeToDesiredSize:(CGSize)size;
 
-- (UIImage *)fixOrientation;
-
 @end
