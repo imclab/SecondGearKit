@@ -28,6 +28,7 @@
 #import "NSURL+SGAdditions.h"
 #import "NSSet+SGExtensions.h"
 #import "SGUtilities.h"
+#import "NSRegularExpression+SGExtensions.h"
 
 // Core Data
 #import "SGManagedObject.h"

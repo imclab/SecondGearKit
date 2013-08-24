@@ -31,6 +31,7 @@
 #import "NSURL+SGAdditions.h"
 #import "NSSet+SGExtensions.h"
 #import "SGUtilities.h"
+#import "NSRegularExpression+SGExtensions.h"
 
 // Social
 #import "SGTwitterController.h"
