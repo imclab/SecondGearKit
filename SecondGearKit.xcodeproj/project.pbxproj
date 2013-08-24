@@ -126,6 +126,14 @@
 		D0C067E2160F857C00CCEE1E /* SGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C067E0160F857C00CCEE1E /* SGKeychain.m */; };
 		D0CF41DB17C95B8C00B4D90D /* UIView+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF41D917C95B8C00B4D90D /* UIView+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0CF41DC17C95B8C00B4D90D /* UIView+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41DA17C95B8C00B4D90D /* UIView+SGAdditions.m */; };
+		D0CF41EA17C95CF100B4D90D /* UIDevice+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF41E817C95CF100B4D90D /* UIDevice+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CF41EB17C95CF100B4D90D /* UIDevice+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41E917C95CF100B4D90D /* UIDevice+SGExtensions.m */; };
+		D0CF41EE17C95D3B00B4D90D /* UIViewController+OS7Conveniences.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF41EC17C95D3B00B4D90D /* UIViewController+OS7Conveniences.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CF41EF17C95D3B00B4D90D /* UIViewController+OS7Conveniences.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41ED17C95D3B00B4D90D /* UIViewController+OS7Conveniences.m */; };
+		D0CF41F217C95D5C00B4D90D /* UITableViewCell+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF41F017C95D5C00B4D90D /* UITableViewCell+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CF41F317C95D5C00B4D90D /* UITableViewCell+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41F117C95D5C00B4D90D /* UITableViewCell+SGExtensions.m */; };
+		D0CF41F617C95DA300B4D90D /* UICollectionViewCell+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF41F417C95DA300B4D90D /* UICollectionViewCell+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CF41F717C95DA300B4D90D /* UICollectionViewCell+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41F517C95DA300B4D90D /* UICollectionViewCell+SGExtensions.m */; };
 		D0FDF69B1650607900D2E097 /* UIAlertView+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0FDF69C1650607900D2E097 /* UIAlertView+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */; };
 		D0FDF6A1165060D100D2E097 /* UIView+position.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF69F165060D100D2E097 /* UIView+position.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -230,6 +238,14 @@
 		D0C067E0160F857C00CCEE1E /* SGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGKeychain.m; path = SGKeychain/SGKeychain.m; sourceTree = "<group>"; };
 		D0CF41D917C95B8C00B4D90D /* UIView+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SGAdditions.h"; path = "UIKit/UIView+SGAdditions.h"; sourceTree = "<group>"; };
 		D0CF41DA17C95B8C00B4D90D /* UIView+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SGAdditions.m"; path = "UIKit/UIView+SGAdditions.m"; sourceTree = "<group>"; };
+		D0CF41E817C95CF100B4D90D /* UIDevice+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SGExtensions.h"; path = "UIKit/UIDevice+SGExtensions.h"; sourceTree = "<group>"; };
+		D0CF41E917C95CF100B4D90D /* UIDevice+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SGExtensions.m"; path = "UIKit/UIDevice+SGExtensions.m"; sourceTree = "<group>"; };
+		D0CF41EC17C95D3B00B4D90D /* UIViewController+OS7Conveniences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+OS7Conveniences.h"; path = "UIKit/UIViewController+OS7Conveniences.h"; sourceTree = "<group>"; };
+		D0CF41ED17C95D3B00B4D90D /* UIViewController+OS7Conveniences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+OS7Conveniences.m"; path = "UIKit/UIViewController+OS7Conveniences.m"; sourceTree = "<group>"; };
+		D0CF41F017C95D5C00B4D90D /* UITableViewCell+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+SGExtensions.h"; path = "UIKit/UITableViewCell+SGExtensions.h"; sourceTree = "<group>"; };
+		D0CF41F117C95D5C00B4D90D /* UITableViewCell+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+SGExtensions.m"; path = "UIKit/UITableViewCell+SGExtensions.m"; sourceTree = "<group>"; };
+		D0CF41F417C95DA300B4D90D /* UICollectionViewCell+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewCell+SGExtensions.h"; path = "UIKit/UICollectionViewCell+SGExtensions.h"; sourceTree = "<group>"; };
+		D0CF41F517C95DA300B4D90D /* UICollectionViewCell+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+SGExtensions.m"; path = "UIKit/UICollectionViewCell+SGExtensions.m"; sourceTree = "<group>"; };
 		D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SGExtensions.h"; path = "UIKit/UIAlertView+SGExtensions.h"; sourceTree = "<group>"; };
 		D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SGExtensions.m"; path = "UIKit/UIAlertView+SGExtensions.m"; sourceTree = "<group>"; };
 		D0FDF69F165060D100D2E097 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
@@ -389,6 +405,14 @@
 				D02F5F3016FE4B2C003A6013 /* UIImage+SGAdditions.m */,
 				D0CF41D917C95B8C00B4D90D /* UIView+SGAdditions.h */,
 				D0CF41DA17C95B8C00B4D90D /* UIView+SGAdditions.m */,
+				D0CF41E817C95CF100B4D90D /* UIDevice+SGExtensions.h */,
+				D0CF41E917C95CF100B4D90D /* UIDevice+SGExtensions.m */,
+				D0CF41EC17C95D3B00B4D90D /* UIViewController+OS7Conveniences.h */,
+				D0CF41ED17C95D3B00B4D90D /* UIViewController+OS7Conveniences.m */,
+				D0CF41F017C95D5C00B4D90D /* UITableViewCell+SGExtensions.h */,
+				D0CF41F117C95D5C00B4D90D /* UITableViewCell+SGExtensions.m */,
+				D0CF41F417C95DA300B4D90D /* UICollectionViewCell+SGExtensions.h */,
+				D0CF41F517C95DA300B4D90D /* UICollectionViewCell+SGExtensions.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -601,6 +625,10 @@
 				D012F51016A75021002E0328 /* SGButtonItem.h in Headers */,
 				D0CF41DB17C95B8C00B4D90D /* UIView+SGAdditions.h in Headers */,
 				D02F5F3116FE4B2C003A6013 /* UIImage+SGAdditions.h in Headers */,
+				D0CF41EA17C95CF100B4D90D /* UIDevice+SGExtensions.h in Headers */,
+				D0CF41F217C95D5C00B4D90D /* UITableViewCell+SGExtensions.h in Headers */,
+				D0CF41F617C95DA300B4D90D /* UICollectionViewCell+SGExtensions.h in Headers */,
+				D0CF41EE17C95D3B00B4D90D /* UIViewController+OS7Conveniences.h in Headers */,
 				D012F51116A75021002E0328 /* UIActionSheet+SGExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -727,6 +755,7 @@
 				D0796B3E165059E200E2C9A4 /* DispatchQueueLogFormatter.m in Sources */,
 				D0796B30165059D200E2C9A4 /* Reachability.m in Sources */,
 				D0796B31165059D200E2C9A4 /* SGMimiMailer.m in Sources */,
+				D0CF41F717C95DA300B4D90D /* UICollectionViewCell+SGExtensions.m in Sources */,
 				D0796B32165059D200E2C9A4 /* SGKeychain.m in Sources */,
 				D0796B33165059D200E2C9A4 /* NSData+Base64.m in Sources */,
 				D0796B34165059D200E2C9A4 /* NSArray+SGAdditions.m in Sources */,
@@ -735,6 +764,7 @@
 				D0796B37165059D200E2C9A4 /* NSDictionary+SGAdditions.m in Sources */,
 				D0796B38165059D200E2C9A4 /* NSMutableString+SGAdditions.m in Sources */,
 				D0796B39165059D200E2C9A4 /* NSObject+SGAdditions.m in Sources */,
+				D0CF41F317C95D5C00B4D90D /* UITableViewCell+SGExtensions.m in Sources */,
 				D0796B3A165059D200E2C9A4 /* NSString+SGAdditions.m in Sources */,
 				D0796B3B165059D200E2C9A4 /* NSURL+SGAdditions.m in Sources */,
 				D0796B3C165059D200E2C9A4 /* NSSet+SGExtensions.m in Sources */,
@@ -749,12 +779,14 @@
 				D0FDF6BE1650628100D2E097 /* UIResponder+TextInsertion.m in Sources */,
 				D05E3C29165545CE007ACA35 /* SGManagedObject.m in Sources */,
 				D0A8CD5816684BD6001BF249 /* SGLocationManager.m in Sources */,
+				D0CF41EF17C95D3B00B4D90D /* UIViewController+OS7Conveniences.m in Sources */,
 				D0CF41DC17C95B8C00B4D90D /* UIView+SGAdditions.m in Sources */,
 				D0A8CDBE16695A64001BF249 /* SGUtilities.m in Sources */,
 				D0A8CE45166C5A24001BF249 /* SGTwitterController.m in Sources */,
 				D0A8CE4E166C5AC2001BF249 /* SGProgressHUD.m in Sources */,
 				D0A8CE52166C5AF5001BF249 /* MBProgressHUD.m in Sources */,
 				D012F50F16A75021002E0328 /* SGButtonItem.m in Sources */,
+				D0CF41EB17C95CF100B4D90D /* UIDevice+SGExtensions.m in Sources */,
 				D012F51216A75021002E0328 /* UIActionSheet+SGExtensions.m in Sources */,
 				D02F5F3216FE4B2C003A6013 /* UIImage+SGAdditions.m in Sources */,
 			);

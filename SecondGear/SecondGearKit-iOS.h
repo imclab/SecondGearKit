@@ -54,6 +54,10 @@
 #import "UIActionSheet+SGExtensions.h"
 #import "UIImage+SGAdditions.h"
 #import "UIView+SGAdditions.h"
+#import "UIDevice+SGExtensions.h"
+#import "UIViewController+OS7Conveniences.h"
+#import "UITableViewCell+SGExtensions.h"
+#import "UICollectionViewCell+SGExtensions.h"
 
 // Location
 #import "SGLocationManager.h"
