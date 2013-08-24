@@ -124,6 +124,8 @@
 		D0A8CE55166C5B75001BF249 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A8CE54166C5B75001BF249 /* Accounts.framework */; };
 		D0C067E1160F857C00CCEE1E /* SGKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = D0C067DF160F857C00CCEE1E /* SGKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C067E2160F857C00CCEE1E /* SGKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C067E0160F857C00CCEE1E /* SGKeychain.m */; };
+		D0CF41DB17C95B8C00B4D90D /* UIView+SGAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF41D917C95B8C00B4D90D /* UIView+SGAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CF41DC17C95B8C00B4D90D /* UIView+SGAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41DA17C95B8C00B4D90D /* UIView+SGAdditions.m */; };
 		D0FDF69B1650607900D2E097 /* UIAlertView+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0FDF69C1650607900D2E097 /* UIAlertView+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */; };
 		D0FDF6A1165060D100D2E097 /* UIView+position.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF69F165060D100D2E097 /* UIView+position.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -226,6 +228,8 @@
 		D0A8CE54166C5B75001BF249 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
 		D0C067DF160F857C00CCEE1E /* SGKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGKeychain.h; path = SGKeychain/SGKeychain.h; sourceTree = "<group>"; };
 		D0C067E0160F857C00CCEE1E /* SGKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGKeychain.m; path = SGKeychain/SGKeychain.m; sourceTree = "<group>"; };
+		D0CF41D917C95B8C00B4D90D /* UIView+SGAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SGAdditions.h"; path = "UIKit/UIView+SGAdditions.h"; sourceTree = "<group>"; };
+		D0CF41DA17C95B8C00B4D90D /* UIView+SGAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SGAdditions.m"; path = "UIKit/UIView+SGAdditions.m"; sourceTree = "<group>"; };
 		D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SGExtensions.h"; path = "UIKit/UIAlertView+SGExtensions.h"; sourceTree = "<group>"; };
 		D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SGExtensions.m"; path = "UIKit/UIAlertView+SGExtensions.m"; sourceTree = "<group>"; };
 		D0FDF69F165060D100D2E097 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
@@ -383,6 +387,8 @@
 				D012F50E16A75021002E0328 /* UIActionSheet+SGExtensions.m */,
 				D02F5F2F16FE4B2C003A6013 /* UIImage+SGAdditions.h */,
 				D02F5F3016FE4B2C003A6013 /* UIImage+SGAdditions.m */,
+				D0CF41D917C95B8C00B4D90D /* UIView+SGAdditions.h */,
+				D0CF41DA17C95B8C00B4D90D /* UIView+SGAdditions.m */,
 			);
 			name = UIKit;
 			sourceTree = "<group>";
@@ -593,6 +599,7 @@
 				D0A8CE51166C5AF5001BF249 /* MBProgressHUD.h in Headers */,
 				D0A8CE4D166C5AC2001BF249 /* SGProgressHUD.h in Headers */,
 				D012F51016A75021002E0328 /* SGButtonItem.h in Headers */,
+				D0CF41DB17C95B8C00B4D90D /* UIView+SGAdditions.h in Headers */,
 				D02F5F3116FE4B2C003A6013 /* UIImage+SGAdditions.h in Headers */,
 				D012F51116A75021002E0328 /* UIActionSheet+SGExtensions.h in Headers */,
 			);
@@ -742,6 +749,7 @@
 				D0FDF6BE1650628100D2E097 /* UIResponder+TextInsertion.m in Sources */,
 				D05E3C29165545CE007ACA35 /* SGManagedObject.m in Sources */,
 				D0A8CD5816684BD6001BF249 /* SGLocationManager.m in Sources */,
+				D0CF41DC17C95B8C00B4D90D /* UIView+SGAdditions.m in Sources */,
 				D0A8CDBE16695A64001BF249 /* SGUtilities.m in Sources */,
 				D0A8CE45166C5A24001BF249 /* SGTwitterController.m in Sources */,
 				D0A8CE4E166C5AC2001BF249 /* SGProgressHUD.m in Sources */,

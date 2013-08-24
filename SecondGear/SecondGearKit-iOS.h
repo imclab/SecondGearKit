@@ -53,6 +53,7 @@
 #import "SGButtonItem.h"
 #import "UIActionSheet+SGExtensions.h"
 #import "UIImage+SGAdditions.h"
+#import "UIView+SGAdditions.h"
 
 // Location
 #import "SGLocationManager.h"
