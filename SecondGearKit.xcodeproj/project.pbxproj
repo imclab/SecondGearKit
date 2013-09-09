@@ -138,6 +138,10 @@
 		D0CF41FB17C95E4100B4D90D /* NSRegularExpression+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CF41F817C95E4100B4D90D /* NSRegularExpression+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0CF41FC17C95E4100B4D90D /* NSRegularExpression+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41F917C95E4100B4D90D /* NSRegularExpression+SGExtensions.m */; };
 		D0CF41FD17C95E4100B4D90D /* NSRegularExpression+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CF41F917C95E4100B4D90D /* NSRegularExpression+SGExtensions.m */; };
+		D0F8201917DE39B200820BCE /* NSLayoutConstraint+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F8201517DE39B200820BCE /* NSLayoutConstraint+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F8201A17DE39B200820BCE /* NSLayoutConstraint+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8201617DE39B200820BCE /* NSLayoutConstraint+SGExtensions.m */; };
+		D0F8201B17DE39B200820BCE /* UIView+SGAutoLayoutExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0F8201717DE39B200820BCE /* UIView+SGAutoLayoutExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F8201C17DE39B200820BCE /* UIView+SGAutoLayoutExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F8201817DE39B200820BCE /* UIView+SGAutoLayoutExtensions.m */; };
 		D0FDF69B1650607900D2E097 /* UIAlertView+SGExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0FDF69C1650607900D2E097 /* UIAlertView+SGExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */; };
 		D0FDF6A1165060D100D2E097 /* UIView+position.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FDF69F165060D100D2E097 /* UIView+position.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -252,6 +256,10 @@
 		D0CF41F517C95DA300B4D90D /* UICollectionViewCell+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UICollectionViewCell+SGExtensions.m"; path = "UIKit/UICollectionViewCell+SGExtensions.m"; sourceTree = "<group>"; };
 		D0CF41F817C95E4100B4D90D /* NSRegularExpression+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSRegularExpression+SGExtensions.h"; path = "UIKit/NSRegularExpression+SGExtensions.h"; sourceTree = SOURCE_ROOT; };
 		D0CF41F917C95E4100B4D90D /* NSRegularExpression+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSRegularExpression+SGExtensions.m"; path = "UIKit/NSRegularExpression+SGExtensions.m"; sourceTree = SOURCE_ROOT; };
+		D0F8201517DE39B200820BCE /* NSLayoutConstraint+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+SGExtensions.h"; path = "UIKit/NSLayoutConstraint+SGExtensions.h"; sourceTree = "<group>"; };
+		D0F8201617DE39B200820BCE /* NSLayoutConstraint+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+SGExtensions.m"; path = "UIKit/NSLayoutConstraint+SGExtensions.m"; sourceTree = "<group>"; };
+		D0F8201717DE39B200820BCE /* UIView+SGAutoLayoutExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+SGAutoLayoutExtensions.h"; path = "UIKit/UIView+SGAutoLayoutExtensions.h"; sourceTree = "<group>"; };
+		D0F8201817DE39B200820BCE /* UIView+SGAutoLayoutExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+SGAutoLayoutExtensions.m"; path = "UIKit/UIView+SGAutoLayoutExtensions.m"; sourceTree = "<group>"; };
 		D0FDF6991650607900D2E097 /* UIAlertView+SGExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+SGExtensions.h"; path = "UIKit/UIAlertView+SGExtensions.h"; sourceTree = "<group>"; };
 		D0FDF69A1650607900D2E097 /* UIAlertView+SGExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+SGExtensions.m"; path = "UIKit/UIAlertView+SGExtensions.m"; sourceTree = "<group>"; };
 		D0FDF69F165060D100D2E097 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
@@ -383,6 +391,10 @@
 		D083381F163D920E00EA32D6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				D0F8201517DE39B200820BCE /* NSLayoutConstraint+SGExtensions.h */,
+				D0F8201617DE39B200820BCE /* NSLayoutConstraint+SGExtensions.m */,
+				D0F8201717DE39B200820BCE /* UIView+SGAutoLayoutExtensions.h */,
+				D0F8201817DE39B200820BCE /* UIView+SGAutoLayoutExtensions.m */,
 				D0A8CE4B166C5AC2001BF249 /* SGProgressHUD.h */,
 				D0A8CE4C166C5AC2001BF249 /* SGProgressHUD.m */,
 				D0FDF6A71650628100D2E097 /* SGActivityIndicator.h */,
@@ -636,6 +648,8 @@
 				D0CF41EA17C95CF100B4D90D /* UIDevice+SGExtensions.h in Headers */,
 				D0CF41F217C95D5C00B4D90D /* UITableViewCell+SGExtensions.h in Headers */,
 				D0CF41F617C95DA300B4D90D /* UICollectionViewCell+SGExtensions.h in Headers */,
+				D0F8201B17DE39B200820BCE /* UIView+SGAutoLayoutExtensions.h in Headers */,
+				D0F8201917DE39B200820BCE /* NSLayoutConstraint+SGExtensions.h in Headers */,
 				D0CF41EE17C95D3B00B4D90D /* UIViewController+OS7Conveniences.h in Headers */,
 				D0CF41FB17C95E4100B4D90D /* NSRegularExpression+SGExtensions.h in Headers */,
 				D012F51116A75021002E0328 /* UIActionSheet+SGExtensions.h in Headers */,
@@ -787,10 +801,12 @@
 				D0FDF6BA1650628100D2E097 /* SGPopoverManager.m in Sources */,
 				D0FDF6BC1650628100D2E097 /* SGPromptedAlertView.m in Sources */,
 				D0FDF6BE1650628100D2E097 /* UIResponder+TextInsertion.m in Sources */,
+				D0F8201C17DE39B200820BCE /* UIView+SGAutoLayoutExtensions.m in Sources */,
 				D05E3C29165545CE007ACA35 /* SGManagedObject.m in Sources */,
 				D0A8CD5816684BD6001BF249 /* SGLocationManager.m in Sources */,
 				D0CF41FD17C95E4100B4D90D /* NSRegularExpression+SGExtensions.m in Sources */,
 				D0CF41EF17C95D3B00B4D90D /* UIViewController+OS7Conveniences.m in Sources */,
+				D0F8201A17DE39B200820BCE /* NSLayoutConstraint+SGExtensions.m in Sources */,
 				D0CF41DC17C95B8C00B4D90D /* UIView+SGAdditions.m in Sources */,
 				D0A8CDBE16695A64001BF249 /* SGUtilities.m in Sources */,
 				D0A8CE45166C5A24001BF249 /* SGTwitterController.m in Sources */,
