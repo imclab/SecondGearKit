@@ -13,6 +13,7 @@ typedef void (^SGButtonItemActionBlock)();
 @interface SGButtonItem : NSObject
 
 @property (nonatomic, strong) NSString *label;
+@property (nonatomic, strong) UIImage *image;
 @property (nonatomic, copy) SGButtonItemActionBlock action;
 
 + (instancetype)buttonItem;
