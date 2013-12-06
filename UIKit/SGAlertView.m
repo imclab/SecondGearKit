@@ -40,7 +40,7 @@ NSString * const SGAlertTitleKey = @"SGAlertTitleKey";
     {
         message = NSLocalizedString(@"Unable to connect to the server. Please try again.", @"");
     }
-    SGAlertView *alertView = [[self alloc] initWithTitle:[error userInfo][SGAlertTitleKey]
+    SGAlertView *alertView = [[self alloc] initWithTitle:@""
                                                  message:[error localizedDescription]
                                                 delegate:nil
                                        cancelButtonTitle:NSLocalizedString(@"OK", @"") otherButtonTitles:nil];
