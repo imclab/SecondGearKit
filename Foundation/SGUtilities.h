@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+extern BOOL SGIsEmpty(id obj);
 extern NSString * SGApplicationName(void);
 extern NSString * SGApplicationVersion(void);
 extern NSString * SGApplicationBuildNumber(void);

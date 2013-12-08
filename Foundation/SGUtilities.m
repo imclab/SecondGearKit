@@ -8,6 +8,12 @@
 
 #import "SGUtilities.h"
 
+BOOL SGIsEmpty(id obj)
+{
+	return obj == nil || obj == [NSNull null] || ([obj respondsToSelector:@selector(length)] && [(NSData *)obj length] == 0) || ([obj respondsToSelector:@selector(count)] && [obj count] == 0);
+}
+
+
 NSString * SGApplicationName(void)
 {
     NSDictionary *applicationInfo = [[NSBundle mainBundle] infoDictionary];
